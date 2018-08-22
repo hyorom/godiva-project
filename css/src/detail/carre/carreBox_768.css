@@ -1,0 +1,70 @@
+/*carreBox_768.css*/ 
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+
+
+#detail_carreBox {width:100%; 
+                  height:290vw;
+                  min-height:110rem; /*1800*/
+                  background-image:url("../../../../img/detail/detail_bg_tab_02.png");
+                  background-repeat:no-repeat;
+                  background-position:right center;
+                  background-size:cover;}
+
+/*text*/
+.carre_text {width:100%;  
+             height:auto;
+             padding-top:35%;}
+
+.carre_text > h2 { width:100%; 
+                   height:auto;
+                   text-align:center;
+                   font-size:2.5rem; 
+                   color:#6d3900;
+                   margin-bottom:2rem;
+                   font-style:italic;}
+
+.carre_text > h3 { width:100%; 
+                   height:auto;
+                   text-align:center;
+                   font-size:0.9rem; 
+                   color:#6d3900;
+                   margin-bottom:20%;}
+
+
+
+/*content*/
+.carre_content_wrap{width:70%;
+                    min-width:28.125rem; 
+                    height:70%; 
+                    margin:auto;}
+
+.carre_content {width:100%; 
+                height:100%; }
+
+
+.carre_content > li { float:left;
+                      width:46%;
+                      height:25%;
+                      margin:0 8% 23% 0;}
+
+.carre_content > li:nth-child(2n){margin-right:0;}
+
+
+.carre_content > li .img {width:100%; 
+                          height:80%; 
+                          transition: all 700ms ease;
+                          background-repeat:no-repeat;
+                          background-position: center;
+                          background-size:70%;}
+
+.carre_content > li  p {width:100%; 
+                        height:10%;
+                        font-size:1.2rem;
+                        font-style: italic;
+                        font-weight: bold;
+                        text-align: center;
+                        color:#6d3900;}
+
+}

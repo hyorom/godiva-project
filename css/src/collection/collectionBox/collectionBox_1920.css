@@ -1,0 +1,163 @@
+/*collectionBox_1920.css*/
+
+@media screen and (min-width: 1367px) { 
+
+#collectionBox {width:100%; height:400%;}
+
+#collectionBox article {position:relative;
+                        margin:auto; 
+                        width:80%; 
+                        height:25%; }
+
+
+#collectionBox .text {width:42%; 
+                      padding-top:27%;
+                      height:auto;}
+
+#collectionBox h3 {font-size:3.5rem; 
+                   font-style: italic;
+                   color:#6d3900;
+                   margin-bottom:2.5rem;}
+ 
+#collectBtn {display: block;
+             width:9rem;
+             height:3.125rem;
+             border-radius: 1rem;
+             font-size:0.9rem;
+             transition: all 700ms ease;
+             color:#eee;
+             background-color:#603913;}
+
+
+#collectBtn:focus, 
+#collectBtn:hover {border:1px solid #603913;
+                   font-weight:bold;
+                   color:#603913;
+                   background-color:rgba(255,255,255,0.2);
+                   transition: all 700ms ease;}
+
+
+
+#collectionBox .img {width:58%; height:100%;
+                     background-repeat: no-repeat;
+                     background-position:center;}
+
+
+#collectionBox .move {
+                      position:absolute;
+                      z-index:200;
+                      background-repeat:no-repeat;
+                      background-size:65%;
+                      background-position:center;}
+
+
+
+
+/*loyal*/
+#loyal{width:80%; height:100%;}
+.loyal_text{float:left;
+            text-align:right;}
+
+.loyal_text #collectBtn {float:right;}
+
+.loyal_img{float:right; background-size:50%;
+           background-image:url("../../../../img/collectBox/royal.png");}  
+  
+.loyal_move{left:0; width:32%; height:100%;}
+
+.loyal_move_01{width:20%; height:13%;
+               top:25%;left:80%;
+               background-image:url("../../../../img/collectBox/move/loyal_move_01.png");}
+
+.loyal_move_02{width:30%; height:18%;
+               top:45%;left:30%; 
+               background-image:url("../../../../img/collectBox/move/loyal_move_02.png");}
+
+.loyal_move_03{width:32%; height:15%;
+               top:75%; left:50%; 
+               background-image:url("../../../../img/collectBox/move/loyal_move_03.png");}
+
+
+/*carre*/
+#carre{width:80%;height:100%;}
+.carre_text{float:right;
+            text-align:left;}
+
+.carre_text #collectBtn {float:left} 
+
+.carre_img{float:left; background-size:45%;
+           background-image:url("../../../../img/collectBox/carre.png");}  
+
+.carre_move{right:0;width:32%; height:100%;}
+
+.carre_move_01{width:25%; height:15%;
+               top:20%; left:-20%;
+               background-image:url("../../../../img/collectBox/move/carre_move_01.png");}
+
+.carre_move_02{width:38%; height:20%;
+               top:40%; right:30%; 
+               background-image:url("../../../../img/collectBox/move/carre_move_02.png");}
+
+.carre_move_03{width:40%; height:20%;
+               top:70%; left:-80%; 
+               background-image:url("../../../../img/collectBox/move/carre_move_03.png");}
+
+
+
+
+/*gold*/
+#gold{width:80%;height:100%;}
+.gold_text{float:left;
+           text-align:right;}
+
+.gold_text #collectBtn {float:right;}
+
+.gold_img{float:right; background-size:50%;
+           background-image:url("../../../../img/collectBox/gold.png");}  
+
+.gold_move{left:0; width:35%; height:100%;}
+
+
+.gold_move_01{width:20%; height:15%;
+               top:20%; right:-50%;
+               background-image:url("../../../../img/collectBox/move/gold_move_01.png");}
+
+.gold_move_02{width:15%; height:10%;
+               top:45%; right:40%;  
+               background-image:url("../../../../img/collectBox/move/gold_move_02.png");}
+
+.gold_move_03{width:30%; height:15%;
+              top:75%; right:10%; 
+              background-image:url("../../../../img/collectBox/move/gold_move_03.png");}
+
+
+
+
+/*truff*/
+#truff{width:80%;height:100%;}
+.truff_text{float:right;
+            text-align:left;}
+
+.truff_text #collectBtn {float:left}
+
+.truff_img{float:left; background-size:55%;
+           background-image:url("../../../../img/collectBox/truff.png");}  
+
+.truff_move{right:0; width:32%; height:100%;}
+
+
+.truff_move_01{width:20%; height:15%;
+               top:20%; left:-10%;
+               background-image:url("../../../../img/collectBox/move/truff_move_01.png");}
+
+.truff_move_02{width:15%; height:10%;
+               top:40%; right:60%;  
+               background-image:url("../../../../img/collectBox/move/truff_move_02.png");}
+
+.truff_move_03{width:35%; height:20%;
+              top:70%; left:-70%;
+              background-image:url("../../../../img/collectBox/move/truff_move_03.png");}
+
+
+
+}

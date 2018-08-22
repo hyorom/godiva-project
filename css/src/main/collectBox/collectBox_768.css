@@ -1,0 +1,9 @@
+/*collectBox_768.css*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+#colletBox{padding-top:13%;}
+
+
+#colletBox > h2 { font-size:2rem;}
+ }

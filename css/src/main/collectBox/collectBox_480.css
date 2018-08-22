@@ -1,0 +1,16 @@
+/*collectBox_480.css*/
+
+@media screen and (max-width: 480px) { 
+
+
+#colletBox{padding-top:15%;}
+
+#colletBox > h2 {margin-bottom: 1.8rem;}
+
+
+
+.colletBtn {width:8.125rem;
+           height:3rem;}
+
+
+ }

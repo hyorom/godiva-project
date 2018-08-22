@@ -1,0 +1,18 @@
+/*godiva_detail_truff.css*/
+
+
+
+/*---headBox---*/
+@import url("./detail/headBox/headBox_all.css");
+@import url("./detail/headBox/headBox_1920.css");
+@import url("./detail/headBox/headBox_1366.css");
+@import url("./detail/headBox/headBox_768.css");
+@import url("./detail/headBox/headBox_480.css");
+
+
+/*---mainBox---*/
+@import url("./detail/truff/truffBox_all.css");
+@import url("./detail/truff/truffBox_1920.css");
+@import url("./detail/truff/truffBox_1366.css");
+@import url("./detail/truff/truffBox_768.css");
+@import url("./detail/truff/truffBox_480.css");

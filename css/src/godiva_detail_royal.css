@@ -1,0 +1,18 @@
+/*godiva_detail_royal.css*/
+
+
+
+/*---headBox---*/
+@import url("./detail/headBox/headBox_all.css");
+@import url("./detail/headBox/headBox_1920.css");
+@import url("./detail/headBox/headBox_1366.css");
+@import url("./detail/headBox/headBox_768.css");
+@import url("./detail/headBox/headBox_480.css");
+
+
+/*---mainBox---*/
+@import url("./detail/royal/royalBox_all.css");
+@import url("./detail/royal/royalBox_1920.css");
+@import url("./detail/royal/royalBox_1366.css");
+@import url("./detail/royal/royalBox_768.css");
+@import url("./detail/royal/royalBox_480.css");

@@ -1,0 +1,12 @@
+/*adBox_all.css*/
+
+
+#adBox:before{position:absolute;
+              bottom:-15%;
+              content:""; 
+              display:block;
+              width:auto; 
+              height:15%; 
+              left:50%;
+              margin-top:25%;
+              border-left:1px solid #6d3900;}

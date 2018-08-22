@@ -1,0 +1,31 @@
+/*loveBox_all.css*/
+
+
+
+
+#loveBox{margin:auto;
+         background-repeat: no-repeat;
+         background-position:center;
+         background-size:90%;
+         background-attachment:fixed; }
+
+
+
+
+/*btn*/
+.loveBtn {display: block;
+           margin:auto;
+           width:8.75rem;
+           height:3.125rem;
+           background-color:rgb(255,255,255,0.3);
+           font-size: 0.9rem;
+           transition: all 500ms linear;
+           margin-bottom:2rem;
+           border:1px solid #000;}
+
+.loveBtn:focus,
+.loveBtn:hover {background-color:#603913;
+                 font-size: 0.9rem;
+                 color:#eee;
+                 transition: all 500ms linear;}
+

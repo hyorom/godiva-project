@@ -1,0 +1,68 @@
+/*clubBox_480.css*/
+
+@media screen and (max-width: 480px) { 
+#clubBox { width:100%; 
+           height:437.5vw; /*2100/480*/
+           min-height:95rem;
+           box-sizing: border-box;
+           padding-top:30%;}
+
+#clubBox > h2 {width:100%;
+                height: auto;
+                text-align: center;
+                font-size:2.2rem;
+                font-weight:bold;
+                font-style: italic;
+                color:#6d3900;
+                margin-bottom: 2rem;}
+
+
+#clubBox > p {width:100%;
+              height: auto;
+              text-align: center;
+              font-size:0.9rem;
+              color:#6d3900;
+              margin-bottom: 2rem;}
+
+
+/*btn*/
+
+.clubBtn {width:8.125rem;
+           height:3rem;}
+
+
+
+
+/*img*/
+
+
+.club_list {margin:auto;
+            width:60%; 
+            height:80vw;}
+
+.club_list  ul {width:100%; height:100%;}
+
+.list {width:100%; 
+       height:100%;}
+
+
+.list  a {display:block; width:100%; height: 100%;}     
+
+.list div { width:100%; 
+            height:65%;
+            background-repeat: no-repeat;
+            background-size:80%;
+            background-position: center;}
+
+
+.list p { width:100%; 
+          height:15%;
+          text-align: center;
+          font-weight: bold;
+          color:#6d3900;}
+
+
+
+
+
+}  

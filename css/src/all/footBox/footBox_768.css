@@ -1,0 +1,21 @@
+/*godiva_footBox_768.css*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+
+.footBox_wrap { width:100%; 
+                height:4.5rem; 
+                background-color:#321a00; }
+
+#footBox {width:100%; height:inherit;}
+#footBox > p {width:auto;
+              height:auto;
+              color:#aaa;
+              text-align:center;
+              font-weight: lighter;
+              padding-top:2rem;
+            font-size:0.9rem;}
+
+
+
+}

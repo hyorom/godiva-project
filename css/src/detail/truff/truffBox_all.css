@@ -1,0 +1,64 @@
+/*truffBox_all.css*/
+
+
+
+/*btn*/
+
+.buy_btn {width:100%; 
+         height:11%;
+         font-size:1.4rem;
+         font-style: italic;
+         font-weight:; bold;
+         text-align:center;
+         color:#eee; 
+         opacity:0;}
+
+#buyBtn{color:#eee;
+        transition: all 700ms ease;}
+
+
+
+
+/*img*/
+.img_01 {background-image:url("../../../../img/detail/truff/truff_01.png");}
+.img_02 {background-image:url("../../../../img/detail/truff/truff_02.png");}
+.img_03 {background-image:url("../../../../img/detail/truff/truff_03.png");}
+.img_04 {background-image:url("../../../../img/detail/truff/truff_04.png");}
+.img_05 {background-image:url("../../../../img/detail/truff/truff_05.png");}
+.img_06 {background-image:url("../../../../img/detail/truff/truff_06.png");}
+
+                    
+
+.truff_content > li .img:focus,
+.truff_content > li .img:hover {background-color:60%;
+                                transition: all 700ms ease;}
+
+.truff_content > li:focus,
+.truff_content > li:hover .buy_btn {transition: all 700ms ease;
+                                    background-color:#4c2800;
+                                    opacity:1;}
+
+.truff_content > li:focus,
+.truff_content > li:hover {box-sizing: border-box;
+                           border:1px solid #4c2800;}
+
+
+
+.img_01:focus,
+.img_01:hover {background-image:url("../../../../img/detail/truff/truff_01_hover.png");}
+
+.img_02:focus,
+.img_02:hover {background-image:url("../../../../img/detail/truff/truff_02_hover.png");}
+
+.img_03:focus,
+.img_03:hover {background-image:url("../../../../img/detail/truff/truff_03_hover.png");}
+
+.img_04:focus,
+.img_04:hover {background-image:url("../../../../img/detail/truff/truff_04_hover.png");}
+
+.img_05:focus,
+.img_05:hover {background-image:url("../../../../img/detail/truff/truff_05_hover.png");}
+
+.img_06:focus,
+.img_06:hover {background-image:url("../../../../img/detail/truff/truff_04_hover.png");}
+

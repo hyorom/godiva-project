@@ -1,0 +1,41 @@
+/*storeBox_all.css*/
+
+
+/*text*/
+
+.store_text{width:auto; height:auto;}
+
+
+.store_text  h2 {width:100%;
+                 height: auto;
+                 text-align: center;
+                 font-weight:bold;
+                 font-style: italic;
+                 color:#6d3900;}
+
+
+.store_text  p {width:100%;
+                height: auto;
+                text-align: center;
+                color:#6d3900;}
+
+
+
+/*btn*/
+
+.storeBtn {display: block;
+           margin:auto;
+           width:8.75rem;
+           height:3.125rem;
+           background-color:rgb(255,255,255,0.3);
+           font-size: 0.9rem;
+           transition: all 500ms linear;
+           margin-bottom:5rem;
+           border:1px solid #000;}
+
+.storeBtn:focus,
+.storeBtn:hover {background-color:#603913;
+                 font-size: 0.9rem;
+                 color:#eee;
+                 transition: all 500ms linear;}
+

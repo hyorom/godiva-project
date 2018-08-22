@@ -1,0 +1,30 @@
+/*giftBox_all.css*/
+
+
+
+
+
+#giftBox > div {background-size:cover;
+                background-repeat:no-repeat;
+                background-position:0;
+                /*background-attachment:fixed;*/
+                transition:all 500ms ease;}
+
+
+
+#giftBox > div:focus,
+#giftBox > div:hover{transition:all 500ms ease;}
+
+
+
+
+.wedding {float:left; background-image:url("../../../../img/gift/wedding_hover.png");}
+.baby {float:right; background-image:url("../../../../img/gift/baby_hover.png");}
+
+
+.wedding:focus,
+.wedding:hover{background-image:url("../../../../img/gift/wedding_img.png"); }
+
+
+.baby:focus,
+.baby:hover{background-image:url("../../../../img/gift/baby_img.png"); }

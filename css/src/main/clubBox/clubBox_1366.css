@@ -1,0 +1,95 @@
+/*clubBox_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) {
+
+
+
+#clubBox { width:100%; 
+           height:75vw; /*1350/1920*/
+           min-height:55rem;
+           box-sizing: border-box;
+           padding-top:13%;}
+
+#clubBox > h2 {width:100%;
+                height: auto;
+                text-align: center;
+                font-size:2.5rem;
+                font-weight:bold;
+                font-style: italic;
+                color:#6d3900;
+                margin-bottom: 2rem;}
+
+
+#clubBox > p {width:100%;
+              height: auto;
+              text-align: center;
+              color:#6d3900;
+              font-size:0.9rem;
+              margin-bottom: 2rem;}
+
+
+
+/*img*/
+
+
+.club_list {margin:auto;
+            width:65%; 
+            height:20vw;
+            min-height: 18.75rem;}
+
+.club_list  ul {width:100%; height:100%;}
+
+.list {float:left;  
+       margin-right:3%;
+       width:22.7%; 
+       height:100%;}
+
+.list  a {display:block; width:100%; height: 100%;}
+
+
+.list div { width:100%; 
+            height:70%;
+            margin-bottom:2rem;
+            background-repeat: no-repeat;
+            background-size:80%;
+            background-position: center;}
+
+
+.list p { width:100%; 
+          height:15%;
+          text-align: center;
+          font-weight: bold;
+          color:#6d3900;}
+
+.list:nth-of-type(4){margin-right:0;}
+
+
+
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1185px) { 
+
+
+#clubBox {padding-top:16%;}
+
+.club_list {margin:auto;
+            width:80%; 
+            height:20vw;
+            min-height:15rem;}
+
+.list p {font-size: 0.9rem;}
+
+
+.clubBtn {width:8.125rem;
+          height:2.8125rem;}
+
+.clubBtn:focus,
+.clubBtn:hover {width:8.125rem;
+                 height:2.8125rem;}
+
+
+
+
+}

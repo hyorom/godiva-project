@@ -1,0 +1,79 @@
+/*contentBox_480.css*/
+
+@media screen and (max-width: 480px) {
+
+
+#contentBox{width:100%;
+            height:520.8333333333333vw; /*2500/480*/
+            min-height: 125rem;} 
+
+.content_wrap {margin:auto;
+               width:95%;
+               height:100%;
+               box-sizing: border-box;
+               padding-top:13%;}
+
+.content_wrap > ul {width:100%; height:100%;}
+
+.content_wrap li {width:100%; height:33.3333%;}
+
+
+
+/*img*/
+.content_img {width:100%; 
+              height:40%; 
+              background-repeat:no-repeat;
+              background-size: 80%;
+              background-position: center;}
+
+.content_text {width:100%; 
+               height:60%;
+               box-sizing:border-box;
+               padding-top:8%;}
+
+.lady_img {background-image:url("../../../../img/content/lady_godiva.png");
+           background-size:70%;}
+.choco_img{background-image:url("../../../../img/content/content_img_02.png");}
+.pro_img {background-image:url("../../../../img/content/content_img_03.png");
+          background-position:bottom;}
+
+
+
+/*dl*/
+.content_wrap dl {width:auto; 
+                  height:auto;
+                  text-align:center;}
+
+.content_wrap dt { width:auto;
+                   height:auto;
+                   font-size:2.5rem;
+                   font-style: italic;
+                   font-weight: bold;
+                   margin-bottom:1.5rem;
+                   color:#6d3900;
+                  }
+
+
+.content_wrap dd { width:auto;
+                   height:auto;
+                   color:#6d3900;
+                   font-size:0.9rem;
+                   line-height: 1.6rem;
+                   margin-bottom:1.5rem;}
+
+
+/*btn*/
+.contentBtn {display: block;
+             margin:auto;}
+
+
+  }
+
+
+
+
+@media screen and (max-width: 340px) { 
+
+
+.content_wrap {width:100%;}
+}

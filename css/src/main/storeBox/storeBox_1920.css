@@ -1,0 +1,66 @@
+/*storeBox_1920.css*/
+
+@media screen and (min-width: 1367px) {
+
+
+#storeBox { width:100%; 
+            height:52.08333333333333vw; /*1000/1920*/
+            min-height:50rem;
+            box-sizing: border-box;
+            padding-top:13%;}
+
+
+.store_text  h2 {font-size:2.8rem;
+                margin-bottom: 2rem;}
+
+
+.store_text   p {margin-bottom: 2rem;}
+
+ 
+
+
+/*imgg*/
+
+.store_list {width:100%; 
+             height:40%; 
+             overflow-x:hidden;}
+
+.store_list > ul {width:90%; 
+                  height:100%;
+                  margin:auto;
+                  overflow:hidden;}
+
+.store_list > ul > li {float:left;
+                       width:10vw; 
+                       height:100%; 
+                       margin-right:3%;
+                       background-repeat: no-repeat;
+                       background-size:auto 100%;
+                       background-position:center;
+                       transform:translateY(40%);
+                       transition:all 300ms ease; }
+
+
+.store_list > ul > li.store_li_01{background-image:url("../../../../img/store/store_07.png");}
+
+.store_list > ul > li.store_li_02{background-image:url("../../../../img/store/store_01.png");
+transform:translateY(45%);}
+
+.store_list > ul > li.store_li_03{background-image:url("../../../../img/store/store_02.png");
+transform:translateY(45%);}
+
+.store_list > ul > li.store_li_04{background-image:url("../../../../img/store/store_03.png");
+transform:translateY(45%);}
+
+.store_list > ul > li.store_li_05{background-image:url("../../../../img/store/store_04.png");}
+
+.store_list > ul > li.store_li_06{background-image:url("../../../../img/store/store_05.png");}
+
+.store_list > ul > li.store_li_07{background-image:url("../../../../img/store/store_06.png");}
+
+
+.store_list > ul > li:focus, 
+.store_list > ul > li:hover{transform:translateY(10%); 
+                            transition:all 300ms ease; }
+
+}

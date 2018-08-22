@@ -1,0 +1,29 @@
+/*pointBox_all.css*/
+
+
+
+.point_img {position:relative;
+            margin:auto; 
+            height:100%;
+            background-size:100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image:url("../../../../img/point/point.png");}
+ 
+
+.point_img:before {content:""; display: block;
+                    position:absolute; 
+                    z-index: -10;
+                    width:80%; height:25%;
+                    margin:auto;
+                    border:1px solid #000;
+                    position:relative;
+                    top:37%;
+                    transform:translateX(-150px);
+                    opacity:0;}
+
+
+#pointBox:focus .point_img:before,
+#pointBox:hover .point_img:before {transition: all 1000ms ease;
+                         transform:translateX(0);
+                         opacity:1;}

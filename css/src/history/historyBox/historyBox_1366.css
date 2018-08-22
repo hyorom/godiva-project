@@ -1,0 +1,234 @@
+/*historyBox_1366.css*/
+
+
+@media screen and (min-width: 901px) and (max-width: 1367px) { 
+
+
+#historyBox{width:100%; 
+            height:424.597364568082vw;/*5800/1366*/
+            min-height: 312.5rem; /*5000px*/ 
+            position:relative;}
+
+
+#historyBox:before {position:absolute;
+                    z-index:-10;
+                    bottom:0;
+                    content:""; 
+                    display:block;
+                    width:auto; 
+                    height:93%; 
+                    left:50%;
+                    margin-top:25%;
+                    border-left:1px solid #6d3900;}
+
+
+
+
+/*title text*/
+.history_text{width:100%; 
+              height:auto;
+              margin:12% 0 15%;}
+
+.history_text > h2 {width:100%; 
+                    height: auto; 
+                    text-align: center;
+                    font-size:3rem; 
+                    color:#6d3900;
+                    font-weight:lighter;
+                    margin-bottom:1rem;}
+
+.history_text > h3 {width:100%; 
+                    height: auto; 
+                    text-align: center;
+                    font-size:1.6rem; 
+                    color:#6d3900;
+                    font-weight:lighter;
+                    margin-bottom:3rem;}
+
+
+.history_text > p {width:100%;
+                   height: auto;
+                   font-size:1rem;
+                   text-align: center;
+                   color:#6d3900;}
+
+
+
+
+/*content text*/
+.history_content{width:100%; height: auto;}
+
+
+.lef {float:left; width:46%; }
+.rig {float:right; width:46%;}
+
+.history_content h4 {width:100%;
+                     color:#6d3900;
+                     font-size:3.2rem;
+                      margin-bottom:1rem;}
+
+.history_content h5 {width:100%;
+                     color:#6d3900;
+                     font-size:1.2rem;
+                     margin-bottom:1rem;}
+
+.history_content p {width:100%;
+                     color:#6d3900;
+                     font-size:0.9rem;}
+
+
+.img {background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;}
+
+
+.icon {width:7%; 
+       height:18vw; 
+       margin:auto;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: 100%;}
+
+
+
+/*content img*/
+/*01*/
+
+.content_01 {width:100%; 
+             height:80vw;
+             min-height:65rem;}
+
+.icon_01{background-image: url("../../../../img/history/history/icon_01.png");}
+
+.content_01_lef {height:41.66666666666667vw; /*800/1920*/
+                 margin-bottom:15%;
+                 min-height:40.625rem;}
+
+.content_01_rig {height:41.66666666666667vw; /*800/1920*/
+                 margin-bottom:15%;
+                 min-height:40.625rem;}
+
+.content_01_lef >.content_text {text-align:right;}
+.content_01_lef >.content_img {margin-top:5%;
+                               width:60%; 
+                               height:50%; 
+                               float:right; 
+                               background-image: url("../../../../img/history/history/content_01_img_01.png");}
+
+
+.content_01_rig >.content_text {float:left;}
+.content_01_rig  >.content_img {margin:2% 0 7%;
+                                width:90%; 
+                                height:65%; 
+                                float:left; 
+                                background-image: url("../../../../img/history/history/content_01_img_02.png");}
+
+
+
+/*02*/
+
+.content_02 {width:100%; 
+             height:85vw;
+             min-height:70rem;}
+
+.icon_02{background-image: url("../../../../img/history/history/icon_02.png");}
+
+
+.content_02_lef {height:41.66666666666667vw; /*800/1920*/
+                 min-height:48rem;
+                 margin-bottom:15%;}
+
+
+.content_02_rig {height:41.66666666666667vw; /*800/1920*/
+                 min-height:48rem;
+                 margin-bottom:15%;}
+
+
+.content_02_lef > .content_img {float:right;
+                                margin-top:5%;
+                                width:35%; 
+                                height:75%; 
+                                background-image: url("../../../../img/history/history/content_02_img_01.png");}
+
+.content_02_rig > .content_img {margin-top:4%;
+                                width:60%; 
+                                height:55%; 
+                                float:left; 
+                                background-image: url("../../../../img/history/history/content_02_img_02.png");}
+
+/*03*/
+
+
+.content_03 {width:100%; 
+             height:70vw;
+             min-height:50rem;}
+
+.icon_03{background-image: url("../../../../img/history/history/icon_03.png");}
+
+.content_03_lef {height:41.66666666666667vw; /*800/1920*/
+                 min-height:35rem;
+                 margin-bottom:20%;}
+
+
+.content_03_rig {height:41.66666666666667vw; /*800/1920*/
+                 min-height:35rem;
+                 margin-bottom:20%;}
+
+.content_03_lef >.content_text {text-align:right;}
+.content_03_rig > .content_img {margin-top:4rem;
+                                width:45%; 
+                                height:70%; 
+                                float:left; 
+                                background-image: url("../../../../img/history/history/content_03_img.png");}
+
+
+/*04*/
+
+.content_04 {width:100%; 
+             height:70vw;
+             min-height:50rem;}
+
+.icon_04{background-image: url("../../../../img/history/history/icon_04.png");}
+
+
+.content_04_lef {height:41.66666666666667vw; /*800/1920*/
+                 min-height:35rem;
+                 margin-bottom:20%;}
+
+.content_04_rig {height:41.66666666666667vw; /*800/1920*/
+                 min-height:35rem;
+                 margin-bottom:20%;}
+
+.content_04_rig >.content_text {text-align:left;}
+.content_04_lef > .content_img {margin-top:4rem;
+                                width:90%; 
+                                height:65%; 
+                                float:right; 
+                                background-image: url("../../../../img/history/history/content_04_img.png");}
+
+
+/*05*/
+.content_05 {width:100%; 
+             height:70vw;
+             min-height:50rem;}
+
+.icon_05{background-image: url("../../../../img/history/history/icon_05.png");}
+
+.content_05_lef {height:41.66666666666667vw; /*800/1920*/
+                 min-height:35rem;}
+
+.content_05_rig {height:41.66666666666667vw; /*800/1920*/
+                 min-height:35rem;}
+
+.content_05_lef >.content_text {text-align:right;}
+.content_05_rig >.content_img {margin-top:4rem;
+                                width:55%; 
+                                height:75%; 
+                                float:left; 
+                                background-image: url("../../../../img/history/history/content_05_img.png");}
+
+
+}
+
+
+

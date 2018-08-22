@@ -1,0 +1,24 @@
+/*collectionBox_all.css*/
+
+
+#collectionBox{background-repeat: no-repeat;
+               background-size: cover;
+               background-position:center;
+               background-image: url("../../../../img/collectBox/collect_bg.png");}
+
+/*landing*/
+.move {opacity:1;
+       transform:translateY(0); 
+       transition: all 800ms linear;}
+
+/*loyal move*/        
+/*.loyal_move {transform:translateY(5rem);}*/
+/*.loyal_move_01 {transform:translateY(15rem);}*/
+
+
+
+
+#collectionBox .ani {opacity: 1;
+                     transform: translate(0,0);}
+
+

@@ -1,0 +1,29 @@
+/*godiva_buy_iconic.css*/
+
+
+
+
+/*---headBox---*/
+@import url("./buy/headBox/headBox_all.css");
+@import url("./buy/headBox/headBox_1920.css");
+@import url("./buy/headBox/headBox_1366.css");
+@import url("./buy/headBox/headBox_768.css");
+@import url("./buy/headBox/headBox_480.css");
+
+
+
+/*---iconicBox---*/
+@import url("./buy/iconic/iconicBox_all.css");
+@import url("./buy/iconic/iconicBox_1920.css");
+@import url("./buy/iconic/iconicBox_1366.css");
+@import url("./buy/iconic/iconicBox_768.css");
+@import url("./buy/iconic/iconicBox_480.css");
+
+
+/*---recomBox---*/
+@import url("./buy/recom/recomBox_all.css");
+@import url("./buy/recom/recomBox_1920.css");
+@import url("./buy/recom/recomBox_1366.css");
+@import url("./buy/recom/recomBox_768.css");
+@import url("./buy/recom/recomBox_480.css");
+

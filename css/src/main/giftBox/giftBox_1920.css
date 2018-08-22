@@ -1,0 +1,43 @@
+/*giftBox_1920.css*/
+
+@media screen and (min-width: 1367px) {
+
+#giftBox {width:100%; height:25vw;}
+
+
+
+#giftBox > div {width:50%; height:100%;}
+
+
+
+
+/*text*/
+#giftBox > div > dl {width:50%; 
+                     height:13vw;
+                     min-height:13.75rem;
+                     margin:10% auto 0;
+                     background-color:rgb(255,255,255,0.7);
+                     box-sizing: border-box; 
+                     padding-top:4%;}
+
+#giftBox > div > dl > dt {width:100%; height: auto;
+                          text-align:center;
+                          font-size:2rem;
+                          color:#555;
+                          font-weight:lighter;
+                          padding-bottom:3%;}
+
+
+#giftBox > div > dl > dt:after {content:""; display:block;
+                                width:40%; height: auto;
+                                border-bottom: 1px solid #000;
+                                margin:auto;
+                                padding-top:3%;}
+
+
+#giftBox > div > dl > dd {width:100%; height: auto;
+                          text-align:center;
+                          color:#555;
+                          font-size:0.9rem;
+                          font-weight:lighter;}                          
+}

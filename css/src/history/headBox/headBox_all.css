@@ -1,0 +1,62 @@
+/*godiva_headBox_all.css*/
+
+
+/*h1*/
+h1{background-image:url("../../../../img/logo_brown.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:90%;}
+
+
+/*gnb*/
+#gnb {width:1.875rem;
+      height:100%;
+      float:left;}
+
+.gnbBtn{width:100%;
+        height:100%;
+        box-sizing: border-box;
+        padding-top:1.8rem;}
+
+#gnbBtn{width:90%;
+        height:30%;
+        padding:0;
+        position:relative;}
+
+#gnbBtn .line {display:block;
+               width:100%;
+               height:auto;
+               border-bottom:2px solid #cc8844;}
+
+
+#gnbBtn .line:before {content:" "; display:block; 
+                       background-color: #cc8844; 
+                       width:100%; height:2px;
+                       position:absolute; top:0;}
+
+#gnbBtn .line:after {content:" "; display:block; 
+                     background-color: #cc8844; 
+                     width:100%; height:2px;
+                     position:absolute; bottom:0;}
+
+
+
+
+/*하단메뉴*/
+
+
+
+.gnb_drop {display:none; width:300%; height:auto; 
+           padding-top:3rem;}
+
+
+.gnb_drop > ul {width:100%; height:auto;}
+
+
+.gnb_drop > ul > li {width:100%; height:auto;}
+.gnb_drop > ul > li > a {width:auto; height:auto;
+                         display: block;
+                         color:#cc8844;
+                         font-size: 1.2rem;
+                         color:rgba(255,255,255,0.8);
+                         margin-bottom: 2rem;}

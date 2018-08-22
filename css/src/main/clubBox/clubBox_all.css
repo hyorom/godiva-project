@@ -1,0 +1,53 @@
+/*clubBox_all.css*/
+
+
+
+
+/*iimgaaa*/
+
+.list div {transition: all 500ms ease;}
+.list div:focus, 
+.list div:hover {transition: all 500ms ease;}
+
+
+.list_01{background-image:url("../../../../img/club/club_01.png");}
+.list_02{background-image:url("../../../../img/club/club_02.png");}
+.list_03{background-image:url("../../../../img/club/club_03.png");}
+.list_04{background-image:url("../../../../img/club/club_04.png");}
+
+
+.list_01:focus,
+.list_01:hover {background-image:url("../../../../img/club/club_01_hover.png");}
+
+.list_02:focus,
+.list_02:hover {background-image:url("../../../../img/club/club_02_hover.png");}
+
+.list_03:focus,
+.list_03:hover {background-image:url("../../../../img/club/club_03_hover.png");}
+
+.list_04:focus,
+.list_04:hover {background-image:url("../../../../img/club/club_04_hover.png");}
+
+
+
+
+/*btn*/
+
+.clubBtn {display: block;
+           margin:auto;
+           width:8.75rem;
+           height:3.125rem;
+           background-color:rgb(255,255,255,0.3);
+           font-size: 0.9rem;
+           transition: all 500ms linear;
+           margin-bottom: 7rem;
+           border:1px solid #000;}
+
+.clubBtn:focus,
+.clubBtn:hover {background-color:#603913;
+                 font-size: 0.9rem;
+                 color:#eee;
+                 transition: all 500ms linear;}
+
+
+

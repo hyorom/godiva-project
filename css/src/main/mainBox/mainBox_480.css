@@ -1,0 +1,10 @@
+/*mainBox_480.css*/
+
+@media screen and (max-width: 480px) {
+
+
+
+#mainBox {background-image:url("../../../../img/main/godiva_main_mob.png");}
+
+
+  }

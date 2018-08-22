@@ -1,0 +1,27 @@
+/*godiva_history.css*/
+
+
+/*---headBox---*/
+@import url("./history/headBox/headBox_all.css");
+@import url("./history/headBox/headBox_1920.css");
+@import url("./history/headBox/headBox_1366.css");
+@import url("./history/headBox/headBox_768.css");
+@import url("./history/headBox/headBox_480.css");
+
+
+
+/*---adBox---*/
+@import url("./history/adBox/adBox_all.css");
+@import url("./history/adBox/adBox_1920.css");
+@import url("./history/adBox/adBox_1366.css");
+@import url("./history/adBox/adBox_768.css");
+@import url("./history/adBox/adBox_480.css");
+
+
+
+/*---historyBox---*/
+@import url("./history/historyBox/historyBox_all.css");
+@import url("./history/historyBox/historyBox_1920.css");
+@import url("./history/historyBox/historyBox_1366.css");
+@import url("./history/historyBox/historyBox_768.css");
+@import url("./history/historyBox/historyBox_480.css");

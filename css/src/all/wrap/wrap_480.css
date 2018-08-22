@@ -1,0 +1,8 @@
+/*godiva_wrap_480.css*/
+
+@media screen and (max-width: 480px) { 
+#wrap {position:relative; width:100%; height:100%;}
+
+
+
+ }

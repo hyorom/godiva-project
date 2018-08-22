@@ -1,0 +1,97 @@
+/*collectionBox_480.css*/
+
+@media screen and (max-width: 480px) { 
+
+#collectionBox {width:100%; height:400%;}
+
+#collectionBox article {position:relative;
+                        margin:auto; 
+                        width:90%; 
+                        height:25%;}
+
+
+#collectionBox .text {width:100%;
+                      height:auto;
+                      padding-top:35%;}
+
+#collectionBox h3 {font-size:2.6rem; 
+                   font-style: italic;
+                   color:#6d3900;
+                   margin-bottom:2.5rem;}
+
+#collectBtn {display: block;
+             margin:auto;
+             width:7.5rem;
+             height:2.8rem;
+             border-radius: 1rem;
+             font-size:0.9rem;
+             transition: all 700ms ease;
+             color:#eee;
+             background-color:#603913;}
+
+
+#collectBtn:focus, 
+#collectBtn:hover {border:1px solid #603913;
+                  font-weight:bold;
+                  color:#603913;
+                  background-color:rgba(255,255,255,0.2);
+                  transition: all 700ms ease;}
+
+
+
+#collectionBox .img {width:100%; height:50%;
+                     background-repeat:no-repeat;
+                     background-size:70%;
+                     background-position:center;}
+
+
+#collectionBox .move {width:80%; height:85%;
+                      position:absolute;
+                      z-index:100;
+                      bottom:0;
+                      background-repeat:no-repeat;
+                      background-position:center;}
+
+
+/*loyal*/
+#loyal{width:80%; height:100%;}
+.loyal_text{text-align:center;}
+.loyal_img{background-image:url("../../../../img/collectBox/royal.png");}  
+ 
+.loyal_move{left:0; background-size:60%;
+            background-image:url("../../../../img/collectBox/royal_move.png");}
+
+
+
+/*carre*/
+#carre{width:80%;height:100%;}
+.carre_text{text-align:center;}
+.carre_img{background-image:url("../../../../img/collectBox/carre.png");} 
+
+.carre_move{right:0; background-size:55%;
+            background-image:url("../../../../img/collectBox/carre_move.png");}
+
+
+/*gold*/
+#gold{width:80%;height:100%;}
+.gold_text{text-align:center;}
+
+.gold_img{background-image:url("../../../../img/collectBox/gold.png");}  
+
+.gold_move{left:0; background-size:70%;
+           background-image:url("../../../../img/collectBox/gold_move.png");}
+
+
+/*truff*/
+#truff{width:80%;height:100%;}
+.truff_text{text-align:center;}
+
+.truff_img{ background-image:url("../../../../img/collectBox/truff.png");}  
+
+.truff_move{right:0; background-size:55%;
+            background-image:url("../../../../img/collectBox/truff_move.png");}
+
+}
+
+
+

@@ -1,0 +1,12 @@
+/*mainBox_768.css*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+
+
+#mainBox {background-image:url("../../../../img/main/godiva_main_tab.png");
+
+
+
+
+}

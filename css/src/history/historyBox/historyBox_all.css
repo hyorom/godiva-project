@@ -1,0 +1,19 @@
+/*historyBox_all.css*/
+
+
+
+
+/*landing*/
+.content_text {opacity:0;
+               transform:translateY(5rem); 
+               transition: all 800ms linear;} 
+.content .ani {opacity: 1;
+               transform: translate(0,0);}
+
+
+/*keyframes*/
+.icon{animation:move 800ms infinite alternate;}
+
+@keyframes move {
+  0%{transform:translateY(0);}
+  100%{transform:translateY(3rem);}

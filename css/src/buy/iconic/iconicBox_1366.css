@@ -1,0 +1,97 @@
+/*iconic_1366.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1367px) { 
+
+
+#iconicBox{width:80%; 
+           min-width:55rem;
+           height:119.7916666666667vw; /*2300/1920*/ 
+           margin:auto;
+           background-color:#ade;}
+
+
+.iconic_img {float:left;
+             width:59%;
+             height:100%;
+             background-color:#a5f;}
+
+.iconic_detail{padding-top:10%;
+               right:10%;
+               width:auto;
+               height:auto;
+               position:fixed;
+}
+
+
+/*text*/
+
+.iconic_text {width:auto;
+              height:auto;
+              font-style:italic;
+              font-weight:bold;
+              color:#6d3900;}
+
+.iconic_text > h2 {font-size:2.5rem;}
+.iconic_text > h3 {font-size:2.5rem;}
+.iconic_text > p {font-size:0.9rem;
+                  font-style:normal;
+                  margin-bottom:3rem;}
+
+/*counter*/
+
+.counter{width:8rem;
+         height:2rem;
+         border:2px solid #6d3900;
+         border-radius:1rem;
+         margin-bottom:3rem;}
+
+/*btn*/
+
+.btn_wrap{width:100%; 
+          height:auto;
+          background-color:#aed;}
+
+.btn_wrap  button{ display:block;
+                   width:50%; 
+                   height:2.5rem;
+                   margin-bottom:3rem; 
+                   font-weight:bold; }
+#buyBtn{float:left; 
+        background-color:#dfd;}
+#cartBtn{float:right; 
+         background-color:#f4d;}
+
+
+
+/*plus*/ 
+.plus {width:100%; height:auto;}
+.plus > p {width:100%; 
+           height:auto;
+           margin-bottom:3rem;
+           font-size:0.9rem;}
+
+.plus > p:after {content:""; display:block; 
+                 width:100%; height:100%;
+                 border-bottom:1px solid #6d3900;}
+
+
+/*img*/                
+.iconic_img > ul {width:100%; height:100%;}
+.iconic_img > ul > li {width:100%; height:20%; 
+                       background-repeat: no-repeat;
+                       background-position: center;}
+
+.iconic_img > ul > li:nth-child(1){height:40%;
+                                   background-size:55%;
+                                   background-image:url("../../../../img/buy/iconic/main_img.png");}
+
+.iconic_img > ul > li:nth-child(2){background-size:35%;
+                                   background-image:url("../../../../img/buy/iconic/serve_img_02.png"); }
+
+.iconic_img > ul > li:nth-child(3){background-size:35%;
+                                   background-image:url("../../../../img/buy/iconic/serve_img_03.png"); }
+
+.iconic_img > ul > li:nth-child(4){background-size:35%;
+                                   background-image:url("../../../../img/buy/iconic/serve_img_01.png"); }
+
+}

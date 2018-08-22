@@ -1,0 +1,73 @@
+/*goldBox_768.css*/
+
+
+/*royalBox_768.css*/ 
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
+
+
+#detail_goldBox {width:100%; 
+                  height:220vw;
+                  min-height:80rem;
+                  background-image:url("../../../../img/detail/detail_bg_tab_02.png");
+                  background-repeat:no-repeat;
+                  background-position:right center;
+                  background-size:cover;}
+
+/*text*/
+.gold_text {width:100%; 
+             height:auto;
+             padding-top:35%;}
+
+.gold_text > h2 { width:100%; 
+                   height:auto; 
+                   text-align:center;
+                   font-size:2.5rem; 
+                   color:#6d3900;
+                   margin-bottom:2rem;
+                   font-style:italic;}
+
+.gold_text > h3 { width:100%; 
+                   height:auto;
+                   text-align:center;
+                   font-size:0.9rem; 
+                   color:#6d3900;
+                   margin-bottom:25%;}
+
+
+
+/*content*/
+.gold_content_wrap{width:70%;
+                    min-width:28.125rem; 
+                    height:60%; 
+                    margin:auto;}
+
+.gold_content {width:100%; 
+                height:100%; }
+
+
+.gold_content > li { float:left;
+                      width:46%;
+                      height:37%;
+                      margin:0 8% 28% 0;}
+
+.gold_content > li:nth-child(2n){margin-right:0;}
+
+
+.gold_content > li .img {width:100%; 
+                          height:80%; 
+                          transition: all 700ms ease;
+                          background-repeat:no-repeat;
+                          background-position: center;
+                          background-size:70%;}
+
+.gold_content > li  p {width:100%; 
+                        height:9%;
+                        font-size:1.2rem;
+                        font-style: italic;
+                        font-weight: bold;
+                        text-align: center;
+                        color:#6d3900;}
+
+}

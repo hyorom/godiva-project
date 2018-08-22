@@ -1,0 +1,80 @@
+/*godiva_main.css*/
+
+
+/*---headBox---*/
+@import url("./main/headBox/headBox_all.css");
+@import url("./main/headBox/headBox_1920.css");
+@import url("./main/headBox/headBox_1366.css");
+@import url("./main/headBox/headBox_768.css");
+@import url("./main/headBox/headBox_480.css");
+
+
+/*---mainBox---*/
+@import url("./main/mainBox/mainBox_all.css");
+@import url("./main/mainBox/mainBox_1920.css");
+@import url("./main/mainBox/mainBox_1366.css");
+@import url("./main/mainBox/mainBox_768.css");
+@import url("./main/mainBox/mainBox_480.css");
+
+
+/*---contentBox---*/
+@import url("./main/contentBox/contentBox_all.css");
+@import url("./main/contentBox/contentBox_1920.css");
+@import url("./main/contentBox/contentBox_1366.css");
+@import url("./main/contentBox/contentBox_768.css");
+@import url("./main/contentBox/contentBox_480.css");
+
+
+/*---collectBox---*/
+@import url("./main/collectBox/collectBox_all.css");
+@import url("./main/collectBox/collectBox_1920.css");
+@import url("./main/collectBox/collectBox_1366.css");
+@import url("./main/collectBox/collectBox_768.css");
+@import url("./main/collectBox/collectBox_480.css");
+
+
+/*---clubBox---*/
+@import url("./main/clubBox/clubBox_all.css");
+@import url("./main/clubBox/clubBox_1920.css");
+@import url("./main/clubBox/clubBox_1366.css");
+@import url("./main/clubBox/clubBox_768.css");
+@import url("./main/clubBox/clubBox_480.css");
+
+
+/*---giftBox---*/
+@import url("./main/giftBox/giftBox_all.css");
+@import url("./main/giftBox/giftBox_1920.css");
+@import url("./main/giftBox/giftBox_1366.css");
+@import url("./main/giftBox/giftBox_768.css");
+@import url("./main/giftBox/giftBox_480.css");
+
+
+/*---storeBox---*/
+@import url("./main/storeBox/storeBox_all.css");
+@import url("./main/storeBox/storeBox_1920.css");
+@import url("./main/storeBox/storeBox_1366.css");
+@import url("./main/storeBox/storeBox_768.css");
+@import url("./main/storeBox/storeBox_480.css");
+
+
+/*---pointBox---*/
+@import url("./main/pointBox/pointBox_all.css");
+@import url("./main/pointBox/pointBox_1920.css");
+@import url("./main/pointBox/pointBox_1366.css");
+@import url("./main/pointBox/pointBox_768.css");
+@import url("./main/pointBox/pointBox_480.css");
+
+
+/*---loveBox---*/
+@import url("./main/loveBox/loveBox_all.css");
+@import url("./main/loveBox/loveBox_1920.css");
+@import url("./main/loveBox/loveBox_1366.css");
+@import url("./main/loveBox/loveBox_768.css");
+@import url("./main/loveBox/loveBox_480.css");
+
+
+/*---cocBox---*/
+@import url("./main/cocBox/cocBox_1920.css");
+@import url("./main/cocBox/cocBox_1366.css");
+@import url("./main/cocBox/cocBox_768.css");
+@import url("./main/cocBox/cocBox_480.css");
