@@ -20,7 +20,7 @@
     gnbDrop.stop().slideToggle();
     //gnbDrop.stop().fadeToggle();
     $(this).toggleClass('active');
-    });
+    }); 
 
 
 
