@@ -32,7 +32,7 @@
 #collectBtn:focus, 
 #collectBtn:hover {border:1px solid #603913;
                    font-weight:bold;
-                   color:#603913;
+                   color:#4c2800;
                    background-color:rgba(255,255,255,0.2);
                    transition: all 700ms ease;}
 
@@ -104,7 +104,7 @@
 
 
 
-
+ 
 /*gold*/
 #gold{width:80%;height:100%;}
 .gold_text{float:left;

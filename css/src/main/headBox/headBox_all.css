@@ -43,7 +43,7 @@ h1{background-image:url("../../../../img/logo.png");
 
 
 /*하단메뉴*/
-
+ 
 
 
 .gnb_drop {display:none; width:300%; height:auto; 
@@ -57,5 +57,6 @@ h1{background-image:url("../../../../img/logo.png");
 .gnb_drop > ul > li > a {width:auto; height:auto;
                          display: block;
                          font-size: 1.2rem;
+                         font-weight:bold;
                          color:rgba(255,255,255,0.8);
                          margin-bottom: 2rem;}

@@ -1,0 +1,27 @@
+/*godiva_history.css*/
+
+
+/*---headBox---*/
+@import url("./chef/headBox/headBox_all.css");
+@import url("./chef/headBox/headBox_1920.css");
+@import url("./chef/headBox/headBox_1366.css");
+@import url("./chef/headBox/headBox_768.css");
+@import url("./chef/headBox/headBox_480.css");
+
+
+
+/*---adBox---*/
+@import url("./chef/adBox/adBox_all.css");
+@import url("./chef/adBox/adBox_1920.css");
+@import url("./chef/adBox/adBox_1366.css");
+@import url("./chef/adBox/adBox_768.css");
+@import url("./chef/adBox/adBox_480.css");
+
+
+
+/*---chefBox---*/
+@import url("./chef/chefBox/chefBox_all.css");
+@import url("./chef/chefBox/chefBox_1920.css");
+@import url("./chef/chefBox/chefBox_1366.css");
+@import url("./chef/chefBox/chefBox_768.css");
+@import url("./chef/chefBox/chefBox_480.css");  

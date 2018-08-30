@@ -17,7 +17,7 @@
 
 #collectionBox h3 {font-size:2.7rem; 
                    font-style: italic;
-                   color:#6d3900;
+                   color:#6d3900; 
                    margin-bottom:2.5rem;}
 
 #collectBtn {display: block;
@@ -47,7 +47,7 @@
 
 #collectionBox .move {position:absolute;
                       z-index:100;
-                      background-size:65%;
+                      background-size:100%;
                       background-repeat:no-repeat;
                       background-position:center;}
 
@@ -60,18 +60,18 @@
 .loyal_img{background-size:50%;
            background-image:url("../../../../img/collectBox/royal.png");}  
 
-.loyal_move{left:0; width:80%; height:85%;}
+.loyal_move{left:0; width:40%; height:85%;}
 
 .loyal_move_01{width:15%; height:10%;
-               top:25%; left:80%;
+               top:10%; left:110%;
                background-image:url("../../../../img/collectBox/move/loyal_move_01.png");}
 
 .loyal_move_02{width:30%; height:18%;
-               top:45%;left:30%; 
+               top:25%;left:30%; 
                background-image:url("../../../../img/collectBox/move/loyal_move_02.png");}
 
 .loyal_move_03{width:32%; height:15%;
-               top:75%; left:50%; 
+               top:50%; left:50%; 
                background-image:url("../../../../img/collectBox/move/loyal_move_03.png");}
 
 
@@ -82,19 +82,19 @@
 .carre_img{background-size:47%;
            background-image:url("../../../../img/collectBox/carre.png");}  
 
-.carre_move{right:0; width:80%; height:85%;}
+.carre_move{right:0; width:40%; height:85%;}
 
 
 .carre_move_01{width:25%; height:15%;
-               top:20%; left:-20%;
+               top:10%; left:-10%;
                background-image:url("../../../../img/collectBox/move/carre_move_01.png");}
 
 .carre_move_02{width:38%; height:20%;
-               top:40%; right:30%; 
+               top:25%; right:20%; 
                background-image:url("../../../../img/collectBox/move/carre_move_02.png");}
 
 .carre_move_03{width:40%; height:20%;
-               top:70%; left:-60%; 
+               top:50%; left:-40%; 
                background-image:url("../../../../img/collectBox/move/carre_move_03.png");}
 
 
@@ -105,18 +105,18 @@
 .gold_img{background-size:50%;
           background-image:url("../../../../img/collectBox/gold.png");}  
 
-.gold_move{left:0; width:80%; height:85%;}
+.gold_move{left:0; width:40%; height:85%;}
 
 .gold_move_01{width:20%; height:15%;
-               top:20%; right:-20%;
+               top:0%; right:-20%;
                background-image:url("../../../../img/collectBox/move/gold_move_01.png");}
 
 .gold_move_02{width:15%; height:10%;
-               top:45%; right:55%;  
+               top:20%; right:55%;  
                background-image:url("../../../../img/collectBox/move/gold_move_02.png");}
 
 .gold_move_03{width:30%; height:15%;
-              top:75%; right:25%; 
+              top:40%; right:25%; 
               background-image:url("../../../../img/collectBox/move/gold_move_03.png");}
 
 
@@ -129,19 +129,19 @@
 .truff_img{background-size:60%;
            background-image:url("../../../../img/collectBox/truff.png");}  
 
-.truff_move{right:0;  width:80%; height:85%;}
+.truff_move{right:0; width:40%; height:85%;}
 
 
 .truff_move_01{width:20%; height:15%;
-               top:20%; left:-10%;
+               top:5%; left:-10%;
                background-image:url("../../../../img/collectBox/move/truff_move_01.png");}
 
-.truff_move_02{width:15%; height:10%;
-               top:40%; right:60%;  
+.truff_move_02{width:20%; height:10%;
+               top:25%; right:20%;  
                background-image:url("../../../../img/collectBox/move/truff_move_02.png");}
 
 .truff_move_03{width:35%; height:20%;
-              top:70%; left:-70%;
+              top:40%; left:0;
               background-image:url("../../../../img/collectBox/move/truff_move_03.png");}
 
 

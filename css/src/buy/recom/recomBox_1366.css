@@ -3,5 +3,60 @@
 
 @media screen and (min-width: 769px) and (max-width: 1367px) { 
 
+ 
+
+#recomBox{width:80%; 
+          height:30%;
+          margin:auto; 
+          margin-bottom:10%;}
+
+/*text*/
+.recom_text{width:100%; height:auto; color:#6d3900;}
+.recom_text > p {width:auto; height:auto; text-align:left; font-size:0.9rem; color:#6d3900;}
+.recom_text:after {content:""; display:block; width:100%; height:auto;
+                   border-bottom:1px solid #6d3900;
+                   padding-top:1rem; }
+
+
+
+/*img*/
+.recom_content{width:100%; height:100%;}
+
+.recom_content > ul {width:100%; height:100%;}
+.recom_content > ul > li {float:left; 
+                          width:22.7%; 
+                          height:100%;
+                          margin-right:3%; 
+                          background-size:60%;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          transition: 500ms all ease;}
+
+
+.recom_content > ul > li:focus,
+.recom_content > ul > li:hover{transition: 500ms all ease;}
+
+.recom_content > ul > li:nth-child(1){background-image:url("../../../../img/buy/recom/recom_01.png");}
+.recom_content > ul > li:nth-child(2){background-image:url("../../../../img/buy/recom/recom_02.png");}
+.recom_content > ul > li:nth-child(3){background-image:url("../../../../img/buy/recom/recom_03.png");}
+.recom_content > ul > li:nth-child(4){background-image:url("../../../../img/buy/recom/recom_04.png");
+                                      margin-right:0;}
+
+
+
+.recom_content > ul > li:nth-child(1):focus,
+.recom_content > ul > li:nth-child(1):hover{background-image:url("../../../../img/buy/recom/recom_01_hover.png"); background-size:50%;}
+
+.recom_content > ul > li:nth-child(2):focus,
+.recom_content > ul > li:nth-child(2):hover{background-image:url("../../../../img/buy/recom/recom_02_hover.png"); background-size:60%;}
+
+.recom_content > ul > li:nth-child(3):focus,
+.recom_content > ul > li:nth-child(3):hover{background-image:url("../../../../img/buy/recom/recom_03_hover.png"); background-size:60%;}
+
+.recom_content > ul > li:nth-child(4):focus,
+.recom_content > ul > li:nth-child(4):hover{background-image:url("../../../../img/buy/recom/recom_04_hover.png"); background-size:50%;}
+
+
+
 
 }

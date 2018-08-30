@@ -1,0 +1,61 @@
+/*godiva_footBox_480.css*/
+
+@media screen and (max-width: 480px) { 
+
+.wrap{margin:auto; 
+      width:100%; 
+      height:auto;}
+
+
+.login_img {margin:10% auto 0; 
+            width:13rem; 
+            height:9rem;
+            background-size:100%;
+            background-repeat:no-repeat;
+            background-position: center;
+            background-image:url("../../../../img/login/login_logo.png");}
+
+
+form{margin:auto; 
+     width:17rem; 
+     height:27rem;}
+
+fieldset {position:relative; 
+          margin:0; 
+          padding:0; 
+          border:0;  
+          width:100%; 
+          height:auto; 
+          background-color:rgba(255,255,255,0.5);}
+
+legend{width:15rem; 
+       height:3.75rem; 
+       text-align:center; 
+       font-size:1.5rem; 
+       color:#fff;}
+
+ 
+.inform {margin:auto; 
+         width:15rem; 
+         height:3.75rem; 
+         font-size:1rem; 
+         color:#fff; 
+         border:0;
+         margin-bottom:20px;}
+
+#idName {width:15rem; height:3.75rem;}
+#pwName{width:15rem; height:3.75rem;}
+
+#login{position:absolute; 
+       left:6.5%; 
+       width:15rem; 
+       height:3.75rem; 
+       margin:auto; 
+       color:#fff;
+       background-color:#6d3900; 
+       font-size:1rem;}
+
+
+
+
+}

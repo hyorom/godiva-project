@@ -7,23 +7,22 @@
            min-width:55rem;
            height:119.7916666666667vw; /*2300/1920*/ 
            margin:auto;
-           background-color:#ade;}
+           margin-bottom:10%;}
 
 
 .iconic_img {float:left;
              width:59%;
-             height:100%;
-             background-color:#a5f;}
+             height:100%;           
+             margin-bottom:10%;}
 
-.iconic_detail{padding-top:10%;
-               right:10%;
+.iconic_detail{padding-top:10%; 
+               right:8%;
                width:auto;
                height:auto;
-               position:fixed;
-}
+               position:fixed;}
 
 
-/*text*/
+/*text*/ 
 
 .iconic_text {width:auto;
               height:auto;
@@ -39,27 +38,56 @@
 
 /*counter*/
 
-.counter{width:8rem;
-         height:2rem;
-         border:2px solid #6d3900;
-         border-radius:1rem;
-         margin-bottom:3rem;}
+.counter{width:100%;
+         height:3rem;
+         margin-bottom:2rem;}
+
+.counter > p {width:80%; 
+              height:2.5rem; 
+              text-align:center; 
+              font-size:1.5rem;
+              border:2px solid #6d3900;
+              border-radius:1rem;
+              display:block;
+              float:left;
+              font-weight:bold;}
+
+.counter > button{display:block; 
+                  width:10%; 
+                  height:1rem; 
+                  margin-left:1rem;
+                  background-size:contain;
+                  background-repeat:no-repeat;}
+
+.counter > .up {float:left;
+                margin-bottom:0.5rem;
+                background-image: url("../../../../img/buy/up.png");}
+
+.counter > .down {float:left;
+                  background-image: url("../../../../img/buy/down.png");}
 
 /*btn*/
 
 .btn_wrap{width:100%; 
-          height:auto;
-          background-color:#aed;}
+          height:auto;}
 
 .btn_wrap  button{ display:block;
-                   width:50%; 
+                   width:48%; 
                    height:2.5rem;
                    margin-bottom:3rem; 
-                   font-weight:bold; }
-#buyBtn{float:left; 
-        background-color:#dfd;}
-#cartBtn{float:right; 
-         background-color:#f4d;}
+                   transition:500ms all ease;
+                   border:1px solid #6d3900;
+                   color:#6d3900;
+                   font-weight:bold;
+                    background-color: #fff;}
+
+.btn_wrap  button:focus,
+.btn_wrap  button:hover{transition:500ms all ease;
+                        background-color:#6d3900;
+                        color:#fff;}
+
+#buyBtn{float:left; margin-right:2%;}
+#cartBtn{float:right;}
 
 
 

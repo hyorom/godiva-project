@@ -1,0 +1,16 @@
+/*adBox_480.css*/
+
+
+@media screen and (max-width: 480px) {
+
+
+#adBox {position:relative;
+        width:100%; 
+        height:17.5rem;  /*280/480*/
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        background-image:url("../../../../img/chef/ad/chef_ad_mob.png");}
+
+
+ }

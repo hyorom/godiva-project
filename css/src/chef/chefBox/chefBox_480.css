@@ -1,0 +1,58 @@
+/*chefBox_480.css*/
+
+
+@media screen and (max-width: 480px) {
+
+
+
+#chefBox{width:100%;
+         height:700vw;/*3100/480*/
+         min-height:175rem;/*2800*/
+         position:relative;}
+ 
+
+/*text*/
+.chef_text{margin:20% 0 20%;}
+
+.chef_text > h2 {font-size:3rem;}
+.chef_text > h3 {font-size:1.6rem;}
+.chef_text > p {font-size:0.8rem;}
+
+/*content*/
+/*content text*/
+.chef_content{margin:auto;
+              width:90%; 
+              height:570vw; 
+              min-height:143rem;/*2300*/}
+
+.content_text{width:100%; 
+	          height:auto; 
+	          text-align:center;
+	          word-break: keep-all;}
+
+.chef_content h4 {font-size:1.5rem;}
+.chef_content h5 {font-size:1rem;}
+.chef_content p {font-size:0.7rem;}
+
+
+.icon {width:100%; 
+       height:30vw; 
+       background-repeat: no-repeat;
+       background-size:18%;
+       padding-bottom:10%;}
+
+
+.content {width:100%; 
+          height:140vw; /*700/950*/
+          min-height:35rem;/*560*/}
+
+.lef{margin:auto;
+	 width:66%; 
+     height:40vw; 
+     margin-bottom:7%;}
+
+
+.icon_05{width:30%; height:4%;}
+
+
+ }

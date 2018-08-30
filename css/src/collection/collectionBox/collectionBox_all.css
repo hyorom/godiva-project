@@ -13,7 +13,7 @@
 
 /*loyal move*/        
 /*.loyal_move {transform:translateY(5rem);}*/
-/*.loyal_move_01 {transform:translateY(15rem);}*/
+/*.loyal_move_01 {transform:translateY(15rem);}*/ 
 
 
 
@@ -22,3 +22,11 @@
                      transform: translate(0,0);}
 
 
+
+
+/*keyframes*/
+.move{animation:move 1000ms infinite alternate;}
+
+@keyframes move {
+  0%{transform:translateY(-1rem);}
+  100%{transform:translateY(1rem);}

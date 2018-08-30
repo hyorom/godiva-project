@@ -1,2 +1,9 @@
 /*iconic_all.css*/
 
+
+
+
+#iconicBox{background-image:url("../../../../img/buy/buy_bg.png");
+           background-repeat:no-repeat;
+           background-size:130%;
+           background-position:center top;}

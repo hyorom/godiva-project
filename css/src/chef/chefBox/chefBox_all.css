@@ -1,0 +1,137 @@
+/*chefBox_all.css*/
+
+
+
+/*text*/
+.chef_text{width:100%; 
+           height:auto;
+           word-break: keep-all;}
+
+.chef_text > h2 {width:100%; 
+                 height: auto; 
+                 text-align: center;
+                 color:#6d3900;
+                 font-weight:lighter;
+                 margin-bottom:1rem;}
+
+.chef_text > h3 {width:100%; 
+                 height: auto; 
+                 text-align: center;
+                 color:#6d3900;
+                 font-weight:lighter;
+                 margin-bottom:3rem;}
+
+
+.chef_text > p {width:100%;
+                height: auto;
+                text-align: center;
+                 color:#6d3900;}
+
+
+/*content*/
+/*content text*/
+
+.chef_content h4 {width:100%;
+                  color:#6d3900;
+                  margin-bottom:1rem;
+                  font-style:italic;}
+
+.chef_content h5 {width:100%;
+                  color:#6d3900;
+                  margin-bottom:1rem;
+                  font-style:italic;}
+
+.chef_content p {width:100%;
+                 color:#6d3900;}
+
+
+.icon {width:100%; 
+       height:10vw; 
+       background-repeat: no-repeat;
+       background-size:11%;}
+
+
+.content {width:100%; 
+          height:35vw; /*672*/
+          min-height:34.375rem; /*550*/}
+
+
+.lef{background-repeat:no-repeat;
+     background-position:center top;
+     background-size:100%;}
+
+
+/*content img*/
+.content_01_lef {background-image:url("../../../../img/chef/chef/chef_01.png");}
+.content_01_lef:after {content:""; display:block; 
+                       width:100%; height:98%; 
+                       border:1px solid #6d3900;
+                       position: relative;
+                       z-index:-100;
+                       transform: translate(-1rem, -1rem);}
+
+.content_02_lef {background-image:url("../../../../img/chef/chef/chef_02.png");}
+.content_02_lef:after {content:""; display:block; 
+                       width:100%; height:98%; 
+                       border:1px solid #6d3900;
+                       position: relative;
+                       z-index:-100;
+                       transform: translate(1rem, 1rem);}
+
+
+.content_03_lef {background-image:url("../../../../img/chef/chef/chef_03.png");}
+.content_03_lef:after {content:""; display:block; 
+                       width:100%; height:98%; 
+                       border:1px solid #6d3900;
+                       position: relative;
+                       z-index:-100;
+                       transform: translate(-1rem, 1rem);}
+
+
+.content_04_lef {background-image:url("../../../../img/chef/chef/chef_04.png");}
+.content_04_lef:after {content:""; display:block; 
+                       width:100%; height:98%; 
+                       border:1px solid #6d3900;
+                       position: relative;
+                       z-index:-100;
+                       transform: translate(1rem, -1rem);}
+
+
+/*landing*/
+.content_text {/*transform:translateY(5rem);*/ 
+               transition: all 800ms linear;} 
+
+.content .ani {transform: translate(0,0);}
+
+
+
+/*icon*/
+
+.icon_01{background-position: center right;
+         background-image: url("../../../../img/chef/point/chef_icon_01.png");}
+
+.icon_02{background-position:center left;
+         background-image: url("../../../../img/chef/point/chef_icon_02.png");}
+
+.icon_03{background-position: center right;
+         background-image: url("../../../../img/chef/point/chef_icon_03.png");}
+
+.icon_04{background-position:center left;
+         background-image: url("../../../../img/chef/point/chef_icon_04.png");}
+
+.icon_05 {position:absolute;
+		      right:10%;
+		      bottom:0;
+		      background-size:100%;
+		      background-repeat:no-repeat;
+          background-image: url("../../../../img/chef/point/chef_icon_05.png");
+          animation:move 800ms infinite alternate;}
+
+
+
+/*keyframes*/
+.icon{animation:move 800ms infinite alternate;}
+
+@keyframes move {
+  0%{transform:translateY(0);}
+  100%{transform:translateY(3rem);}

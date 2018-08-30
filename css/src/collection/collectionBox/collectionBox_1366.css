@@ -1,6 +1,6 @@
 /*collectionBox_1366.css*/
 
-@media screen and (min-width: 769px) and (max-width: 1367px) { 
+@media screen and (min-width:769px) and (max-width: 1367px) { 
 
  
 #collectionBox {width:100%; height:420%;}
@@ -18,7 +18,7 @@
 #collectionBox h3 {font-size:3rem; 
                    font-style: italic;
                    color:#6d3900;
-                   margin-bottom:2.5rem;}
+                   margin-bottom:2.5rem;} 
 
 #collectBtn {display:block;
              width:9rem;
@@ -47,11 +47,11 @@
 #collectionBox .move {position:absolute;
                       z-index:100;
                       background-repeat:no-repeat;
-                      background-size:60%;
+                      background-size:80%;
                       background-position:center;}
 
 
-/*loyal*/
+/*loyal*/ 
 #loyal{width:80%; height:100%;}
 .loyal_text{float:left;
             text-align:right;}
@@ -61,19 +61,19 @@
 .loyal_img{float:right; background-size:55%;
            background-image:url("../../../../img/collectBox/royal.png");}  
 
-.loyal_move{left:0; width:35%; height:100%;}
+.loyal_move{left:0; width:26%; height:100%;}
 
 
 .loyal_move_01{width:20%; height:13%;
-               top:25%;left:80%;
+               top:20%;left:80%;
                background-image:url("../../../../img/collectBox/move/loyal_move_01.png");}
 
 .loyal_move_02{width:30%; height:18%;
-               top:45%;left:30%; 
+               top:35%;left:30%; 
                background-image:url("../../../../img/collectBox/move/loyal_move_02.png");}
 
 .loyal_move_03{width:32%; height:15%;
-               top:75%; left:50%; 
+               top:65%; left:50%; 
                background-image:url("../../../../img/collectBox/move/loyal_move_03.png");}
 
 
@@ -88,7 +88,7 @@
 .carre_img{float:left; background-size:50%;
            background-image:url("../../../../img/collectBox/carre.png");} 
 
-.carre_move{right:0;  width:35%; height:100%;}
+.carre_move{right:0;  width:25%; height:100%;}
 
 .carre_move_01{width:25%; height:15%;
                top:20%; left:-20%;
@@ -115,7 +115,7 @@
            background-image:url("../../../../img/collectBox/gold.png");}  
 
 
-.gold_move{left:0; width:40%; height:100%;}
+.gold_move{left:0; width:30%; height:100%;}
 
 
 .gold_move_01{width:20%; height:15%;
@@ -141,7 +141,7 @@
 .truff_img{float:left; background-size:60%;
            background-image:url("../../../../img/collectBox/truff.png");}  
 
-.truff_move{right:0; width:32%; height:100%;}
+.truff_move{right:0; width:28%; height:100%;}
 
 
 .truff_move_01{width:20%; height:15%;

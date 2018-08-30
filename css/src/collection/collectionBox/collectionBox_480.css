@@ -17,7 +17,7 @@
 #collectionBox h3 {font-size:2.6rem; 
                    font-style: italic;
                    color:#6d3900;
-                   margin-bottom:2.5rem;}
+                   margin-bottom:2.5rem;} 
 
 #collectBtn {display: block;
              margin:auto;
@@ -45,51 +45,105 @@
                      background-position:center;}
 
 
-#collectionBox .move {width:80%; height:85%;
+#collectionBox .move {
                       position:absolute;
                       z-index:100;
-                      bottom:0;
+                      background-size:100%;
                       background-repeat:no-repeat;
                       background-position:center;}
+
 
 
 /*loyal*/
 #loyal{width:80%; height:100%;}
 .loyal_text{text-align:center;}
-.loyal_img{background-image:url("../../../../img/collectBox/royal.png");}  
- 
-.loyal_move{left:0; background-size:60%;
-            background-image:url("../../../../img/collectBox/royal_move.png");}
 
+.loyal_img{background-size:50%;
+           background-image:url("../../../../img/collectBox/royal.png");}  
+
+.loyal_move{left:0; width:35%; height:85%;}
+
+.loyal_move_01{width:15%; height:10%;
+               top:10%; left:110%;
+               background-image:url("../../../../img/collectBox/move/loyal_move_01.png");}
+
+.loyal_move_02{width:30%; height:18%;
+               top:25%;left:30%; 
+               background-image:url("../../../../img/collectBox/move/loyal_move_02.png");}
+
+.loyal_move_03{width:32%; height:15%;
+               top:50%; left:50%; 
+               background-image:url("../../../../img/collectBox/move/loyal_move_03.png");}
 
 
 /*carre*/
 #carre{width:80%;height:100%;}
 .carre_text{text-align:center;}
-.carre_img{background-image:url("../../../../img/collectBox/carre.png");} 
 
-.carre_move{right:0; background-size:55%;
-            background-image:url("../../../../img/collectBox/carre_move.png");}
+.carre_img{background-size:47%;
+           background-image:url("../../../../img/collectBox/carre.png");}  
+
+.carre_move{right:0; width:35%; height:85%;}
+
+
+.carre_move_01{width:25%; height:15%;
+               top:10%; left:-10%;
+               background-image:url("../../../../img/collectBox/move/carre_move_01.png");}
+
+.carre_move_02{width:38%; height:20%;
+               top:25%; right:20%; 
+               background-image:url("../../../../img/collectBox/move/carre_move_02.png");}
+
+.carre_move_03{width:40%; height:20%;
+               top:50%; left:-40%; 
+               background-image:url("../../../../img/collectBox/move/carre_move_03.png");}
 
 
 /*gold*/
 #gold{width:80%;height:100%;}
 .gold_text{text-align:center;}
 
-.gold_img{background-image:url("../../../../img/collectBox/gold.png");}  
+.gold_img{background-size:50%;
+          background-image:url("../../../../img/collectBox/gold.png");}  
 
-.gold_move{left:0; background-size:70%;
-           background-image:url("../../../../img/collectBox/gold_move.png");}
+.gold_move{left:0; width:35%; height:85%;}
+
+.gold_move_01{width:20%; height:15%;
+               top:0%; right:-20%;
+               background-image:url("../../../../img/collectBox/move/gold_move_01.png");}
+
+.gold_move_02{width:15%; height:10%;
+               top:20%; right:55%;  
+               background-image:url("../../../../img/collectBox/move/gold_move_02.png");}
+
+.gold_move_03{width:30%; height:15%;
+              top:40%; right:25%; 
+              background-image:url("../../../../img/collectBox/move/gold_move_03.png");}
+
+
 
 
 /*truff*/
 #truff{width:80%;height:100%;}
 .truff_text{text-align:center;}
 
-.truff_img{ background-image:url("../../../../img/collectBox/truff.png");}  
+.truff_img{background-size:60%;
+           background-image:url("../../../../img/collectBox/truff.png");}  
 
-.truff_move{right:0; background-size:55%;
-            background-image:url("../../../../img/collectBox/truff_move.png");}
+.truff_move{right:0; width:35%; height:85%;}
+
+
+.truff_move_01{width:20%; height:15%;
+               top:5%; left:-10%;
+               background-image:url("../../../../img/collectBox/move/truff_move_01.png");}
+
+.truff_move_02{width:20%; height:10%;
+               top:25%; right:20%;  
+               background-image:url("../../../../img/collectBox/move/truff_move_02.png");}
+
+.truff_move_03{width:35%; height:20%;
+              top:40%; left:0;
+              background-image:url("../../../../img/collectBox/move/truff_move_03.png");}
 
 }
 

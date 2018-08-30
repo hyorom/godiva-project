@@ -1,0 +1,72 @@
+/*chefBox_1920.css*/
+@media screen and (min-width: 1367px) { 
+
+ 
+ 
+#chefBox{position:relative;
+         width:100%; 
+         height:198vw;/*3800/1920*/
+         min-height:200rem;/*3200px*/}
+
+/*title text*/
+.chef_text{margin:10% 0 5%;}
+.chef_text > h2 {font-size:3.5rem;}
+.chef_text > h3 {font-size:2rem;}
+
+/*content*/
+/*content text*/
+.chef_content{margin:auto;
+              width:70%; 
+              height:160vw; 
+}
+
+.content_text{padding-top:30%;}
+
+.chef_content h4 {font-size:1.8rem;}
+
+.chef_content h5 {font-size:1.2rem;}
+
+.chef_content p {font-size:0.9rem;}
+
+
+.icon {width:100%; 
+       height:10vw; 
+       background-repeat: no-repeat;
+       background-size:11%;}
+
+
+.content {width:100%; 
+          height:40vw;
+          min-height:40rem;/*650*/}
+
+
+.lef {width:38%; 
+	  height:17vw; /*800/1920*/
+	  margin:0 6%;
+	  margin-bottom:25%;}
+
+
+/*//content_01//*/
+.content_01_lef {float:left;}
+.content_01_rig{float:left;}
+
+
+/*//content_02//*/
+.content_02_rig {float:right;}
+.content_02_text{width:100%;text-align:right;}
+.content_02_lef {float:right;}
+
+
+/*//content_03//*/
+.content_03_lef {float:left;}
+.content_03_rig{float:left;}
+
+
+/*//content_04//*/
+.content_04_rig {float:right;}
+.content_04_text{width:100%;text-align:right;}
+.content_04_lef {float:right;}
+
+.icon_05{width:20%; height:6%; right:15%;}
+
+}
