@@ -1,0 +1,283 @@
+  <!DOCTYPE html>
+<!-- godiva_detail_carre.html -->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=0.5">
+  <!-- fontawesome -->
+  <!--<link rel="stylesheet" href="../fontawesome5/css/all.css">-->
+  <!-- mycss -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/godiva_all.css"/>
+  <link rel="stylesheet" href="../css/src/godiva_join.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i&amp;subset=latin-ext" rel="stylesheet">
+  <!-- ie -->
+  <!--[if lte IE 9]>
+    <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
+    <script src="../ie/pie/PIE_IE9.js"></script>
+  <![endif]-->
+  <!-- favicon -->
+  <!--<link rel="shortcut icon" type="image/x-icon" href="../img/audi_favicon.png" />-->
+    <link rel="shortcut icon" type="image/x-icon" href="../img/godiva_favicon.png" />
+    <link rel="apple-touch-icon" href="../img/godiva_favicon.png" />
+  <title> Godiva Join </title>
+</head>
+<body> 
+  <!-- layout -->
+  <div id="wrap">
+    <div class="headBox_wrap">
+      <header id="headBox">
+          <h1 class="hidden_wrap" title="godiva korea 사이트에 오신것을 환영합니다."><a href="godiva_main.html"><span>godiva korea</span></a></h1>
+        
+         <nav id="gnb">
+         <h2 class="hidden">
+            godiva korea global navigation</h2>
+            <div class="gnbBtn">
+            <button type="button" id="gnbBtn">
+              <span class="line"></span>
+              <span class="hidden">navigation button</span>
+            </button>   
+          </div>
+          <div class="gnb_drop">
+             <ul>
+                <li><a href="godiva_history.html">Brand</a></li>
+                <li><a href="godiva_chef.html">Chef</a></li>
+                <li><a href="godiva_product.html">Product</a></li>
+                <li><a href="godiva_collection.html">Collection</a></li>
+                <li><a href="godiva_detail_gold.html">Shop</a></li>
+            </ul>
+          </div>
+         </nav>
+  
+          <nav id="unb">
+            <h2 class="hidden">godiva korea utilty navigation</h2>
+            <ul>
+              <li><a href="godiva_join.html">join</a></li>
+              <li><a href="godiva_login.html">login</a></li>
+              <li><a href="#">cart</a></li>
+            </ul>
+          </nav>
+
+    </header>
+   </div>
+    <!--headBox-->
+
+
+<div class="wrap">
+    <h2 class="hidden">godiva join</h2>
+    
+     <div class="join_img">
+       <span class="hidden">join_img</span>
+     </div>
+       
+
+    <form action="#" method="post">
+      <!-- .basic -->
+      <fieldset class="basic">
+        <legend>Godiva site set-up</legend>
+
+       <div class="inform">
+        <label for="idName">
+          <span class="hidden">작성하실 아이디를 입력하세요.</span>
+        </label>
+        <input type="text" id="idName" value="" name="idName"
+               placeholder="아이디" required="required" />
+        </div>
+        <br />
+
+       <div class="inform">
+       <label for="pwName">
+         <span class="hidden">작성하실 비밀번호를 13자 이내로 입력하세요.</span>
+        </label>
+        <input type="password" id="pwName" name="pwName" value="" 
+               maxlength="13" size="20"
+               placeholder="비밀번호" /> 
+        </div>
+       <br />
+
+      <div class="inform">
+       <label for="pwName">
+         <span class="hidden">작성하실 비밀번호를 13자 이내로 입력하세요.</span>
+        </label>
+        <input type="password" id="pwName" name="pwName" value="" 
+               maxlength="13" size="20"
+               placeholder="비밀번호 재확인" /> 
+      </div>
+
+        <!-- 
+          * form영역 내부의 요소들은 대부분 inline 
+          * 반드시 접근성과의 연관성있게 작성!!
+          * form영역내부에 div,p,span,ul,li, h1~6등의 요소를 함께 사용할 수 있다.
+        -->
+      </fieldset>
+ 
+      <!-- .write -->
+      <fieldset class="user">
+        <legend>Godiva user information</legend>
+
+        <div class="inform">
+        <label for="Name">
+         <span class="hidden">당신의 이름을 입력하세요.</span>
+        </label>
+        <input type="text" id="Name" value="" name="Name" 
+              placeholder="이름" />
+        </div>  
+        <br />
+
+      <div class="tel inform">
+                  <dl class="number">
+                    <dt> <span class="hidden">휴대폰번호</span></dt>
+                    <dd>
+                        <select name="" id="firstnumber" >
+                            <option value="10">010</option>
+                            <option value="11">011</option>
+                            <option value="12">012</option>
+                            <option value="13">013</option>
+                            <option value="14">014</option>
+                            <option value="15">015</option>
+                        </select>
+                    </dd>
+
+                    <dd>
+                      <label for="secondnumber" class="hidden plus"> 사용하고 계신 휴대폰 두번째 번호 셋, 또는 네자리를 입력하세요. </label>
+                      <input type="text" id="secondnumber" value="" name="secondnumber" class="number" maxlength="4" />
+                    </dd>
+
+
+                    <dd>
+                      <label for="thirdnumber" class="hidden plus">사용하고 계신 휴대폰 마지막 번호 네자리를 입력하세요. </label>
+                        <input type="text" id="thirdnumber" value="" name="thirdnumber" class="number" maxlength="4" />
+                    </dd>
+                  </dl>
+                </div>
+
+            <div class="birth inform">
+                  <dl class="number">
+                    <dt> <span class="hidden">생년월일</span></dt>
+                    <dd>
+                        <select name="" id="year">
+                            <option value="">년</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+                            <option value="2008">2008</option>
+                        </select>
+                    </dd>
+
+                    <dd>
+                        <select name="" id="month" class="plus">
+                            <option value="">월</option>
+                            <option value="12">12</option>
+                            <option value="11">11</option>
+                            <option value="10">10</option>
+                            <option value="09">09</option>
+                            <option value="08">08</option>
+                            <option value="07">07</option>
+                            <option value="06">06</option>
+                            <option value="05">05</option>
+                            <option value="04">04</option>
+                            <option value="03">03</option>
+                            <option value="02">02</option>
+                            <option value="01">01</option>
+                        </select>
+
+                    </dd>
+
+
+                    <dd>
+                      <select name="" id="day" class="plus">
+                            <option value="">일</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                        </select>
+
+                    </dd>
+                  </dl>
+
+                </div>      
+            
+       <div class="inform">
+           <input type="radio" id="male" value="male" name="gender">
+            <label for="male"><span class="check"></span>남자</label>
+      
+           <input type="radio" id="female" value="female" name="gender">
+           <label for="female"><span class="check"></span>여자</label>
+       </div>
+      </fieldset>
+
+
+      <fieldset class="address">
+        <legend>Godiva option</legend>
+
+       <div class="inform">
+        <label for="addr">
+         <span class="hidden">당신의 주소를 입력하세요.</span>
+        </label>
+        <input type="text" id="postnumber" value="" name="postnumber" 
+              placeholder="우편번호 " />
+        <input type="text" id="postnumber" value="" name="postnumber" 
+                class="postnumber_02" />
+        <input type="text" id="addr" value="" name="addr" 
+              placeholder="주소" />
+        <input type="text" id="addr" value="" name="addr" />
+        </div>  
+      </fieldset>
+
+
+                    
+
+       <fieldset>
+         <div class="inform">
+          <p class="okay">
+              <input type="checkbox" id="ck" name="ck" value="정보활용 동의" />
+                  <label for="ck">개인 정보 제공 및 활용에 동의합니다.</label>
+                </p>
+         </div>
+        </fieldset>
+
+           <div class="inform">
+            <fieldset>
+             <input id="join" class="inform" type="submit" value="Join"/>
+            </fieldset>
+          </div>
+    </form>
+    
+
+  
+
+    <div class="footBox_wrap">
+      <footer id="footBox">
+         <p>&copy; Copyright(C) Godiva. All rights reserved</p>
+      </footer>
+    </div>
+    <!--footBox-->
+  </div>
+
+  <!-- javascript -->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/main/godiva_main_headBox.js"></script>
+
+</body>
+</html>

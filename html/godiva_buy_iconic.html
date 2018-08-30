@@ -22,17 +22,18 @@
   <![endif]-->
   <!-- favicon -->
   <!--<link rel="shortcut icon" type="image/x-icon" href="../img/audi_favicon.png" />-->
-  <link rel="apple-touch-icon" href="../img/godiva_favicon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/godiva_favicon.png" />
+    <link rel="apple-touch-icon" href="../img/godiva_favicon.png" />
   <title> Godiva Buy iconic</title>
 </head>
 <body> 
   <!-- layout -->
   <div id="wrap">
-
+ 
       
     <div class="headBox_wrap">
       <header id="headBox">
-        <h1 class="hidden_wrap" title="godiva korea 사이트에 오신것을 환영합니다."><a href="godiva_index.html"><span>godiva korea</span></a></h1>
+          <h1 class="hidden_wrap" title="godiva korea 사이트에 오신것을 환영합니다."><a href="godiva_main.html"><span>godiva korea</span></a></h1>
         
          <nav id="gnb">
          <h2 class="hidden">
@@ -45,20 +46,20 @@
           </div>
           <div class="gnb_drop">
              <ul>
-                <li><a href="#">Brand</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Collection</a></li>
-                <li><a href="#">Shop</a></li>
+                <li><a href="godiva_history.html">Brand</a></li>
+                <li><a href="godiva_chef.html">Chef</a></li>
+                <li><a href="godiva_product.html">Product</a></li>
+                <li><a href="godiva_collection.html">Collection</a></li>
+                <li><a href="godiva_detail_gold.html">Shop</a></li>
             </ul>
           </div>
          </nav>
   
           <nav id="unb">
-            <h2 class="hidden">  godiva korea utilty navigation</h2>
+            <h2 class="hidden">godiva korea utilty navigation</h2>
             <ul>
-              <li><a href="#">join</a></li>
-              <li><a href="#">login</a></li>
+              <li><a href="godiva_join.html">join</a></li>
+              <li><a href="godiva_login.html">login</a></li>
               <li><a href="#">cart</a></li>
             </ul>
           </nav>
@@ -70,8 +71,6 @@
 
 
       <section id="iconicBox">
-   
-
         <article class="iconic_detail">
            <div class="iconic_text text">
             <h2> Iconic Heart </h2>
@@ -83,12 +82,13 @@
                고디바 풍미를 맛보십시오.</p>
            </div>
              
-           <div class="counter pow">
-             <p>1</p>
-             <button type="button">^</button>
+           <div class="counter hidden_wrap">
+             <p class="clearfix">1</p>
+             <button type="button" class="up clearfix"><span>up</span></button>
+             <button type="button" class="down"><span>down</span></button>
            </div>
  
-            <div class="btn_wrap pow">
+            <div class="btn_wrap">
               <div class="buy_btn">
                 <button type="button" id="buyBtn">구매하기</button>
               </div>
@@ -96,11 +96,6 @@
                 <button type="button" id="cartBtn">장바구니</button>
               </div>
             </div>
- 
-            <div class="plus pow">
-              <p class="plus_01">배송안내</p>
-              <p class="plus_02">유의사항</p>
-           </div>
         </article>    
 
          <article class="iconic_img"> 
@@ -115,6 +110,7 @@
   
 
       <article id="recomBox">
+         <h2 class="hidden"> 추천상품</h2>
         <div class="recom_text">
           <p>고객님께 추천해드리는 상품</p>
         </div> 
@@ -146,6 +142,7 @@
   <script src="../js/base/jquery-3.3.1.min.js"></script>
   <script src="../js/base/jquery-ui.min.js"></script>
   <script src="../js/src/main/godiva_main_headBox.js"></script>
+  <script src="../js/src/buy/godiva_buy_detail.js"></script>
 
 </body>
 </html>

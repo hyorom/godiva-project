@@ -1,5 +1,5 @@
  <!DOCTYPE html>
-<!-- godiva_detail_gold.html -->
+<!-- godiva_detail_carre.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
@@ -13,9 +13,9 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link rel="stylesheet" href="../css/base/reset.css" />
   <link rel="stylesheet" href="../css/src/godiva_all.css"/>
-  <link rel="stylesheet" href="../css/src/godiva_detail_gold.css" />
+  <link rel="stylesheet" href="../css/src/godiva_login.css" />
   <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i&amp;subset=latin-ext" rel="stylesheet">
-  <!-- ie -->
+  <!-- ie --> 
   <!--[if lte IE 9]>
     <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
     <script src="../ie/pie/PIE_IE9.js"></script>
@@ -24,8 +24,8 @@
   <!--<link rel="shortcut icon" type="image/x-icon" href="../img/audi_favicon.png" />-->
     <link rel="shortcut icon" type="image/x-icon" href="../img/godiva_favicon.png" />
     <link rel="apple-touch-icon" href="../img/godiva_favicon.png" />
-  <title> Godiva collection gold</title>
-</head>
+  <title> Godiva Login </title>
+</head> 
 <body> 
   <!-- layout -->
   <div id="wrap">
@@ -33,7 +33,7 @@
       
     <div class="headBox_wrap">
       <header id="headBox">
-         <h1 class="hidden_wrap" title="godiva korea 사이트에 오신것을 환영합니다."><a href="godiva_main.html"><span>godiva korea</span></a></h1>
+          <h1 class="hidden_wrap" title="godiva korea 사이트에 오신것을 환영합니다."><a href="godiva_main.html"><span>godiva korea</span></a></h1>
         
          <nav id="gnb">
          <h2 class="hidden">
@@ -48,7 +48,7 @@
              <ul>
                 <li><a href="godiva_history.html">Brand</a></li>
                 <li><a href="godiva_chef.html">Chef</a></li>
-               <li><a href="godiva_product.html">Product</a></li>
+                <li><a href="godiva_product.html">Product</a></li>
                 <li><a href="godiva_collection.html">Collection</a></li>
                 <li><a href="godiva_detail_gold.html">Shop</a></li>
             </ul>
@@ -67,56 +67,39 @@
     </header>
    </div>
     <!--headBox-->
- 
 
 
-    <article id="detail_goldBox">
-      <div class="gold_text text">
-        <h2> Gold Collection</h2>
-        <h3>고디바의 고급스럽고 우아함을 담은 골드 컬렉션입니다. </h3> 
-      </div>
+<div class="wrap">
+    <h2 class="hidden">godiva login</h2>
+    
+     <div class="login_img">
+       <span class="hidden">login_img</span>
+     </div>
       
-      <div class="gold_content_wrap">
-      <ul class="gold_content">
-        <li>
-          <div class="img_01 img"></div>
-          <p class="narr_01 narr">Iconic heart</p>
-          <div class="buy_btn">
-            <button type="button" id="buyBtn" onclick="location.href='godiva_buy_iconic.html' ">구매하기</button>
-          </div>
-        </li>
 
-        <li>
-          <div class="img_02 img"></div>
-          <p class="narr_02 narr">Gold 14’</p> 
-          <div class="buy_btn">
-            <button type="button" id="buyBtn" onclick="location.href='godiva_buy_iconic.html' ">구매하기</button>
-          </div>
-       </li>
+    <form action="#" method="post">
+        <fieldset>
+          <legend>Login</legend>
 
-       <li>
-          <div class="img_03 img"></div>
-          <p class="narr_03 narr">Gold 24’</p> 
-          <div class="buy_btn">
-            <button type="button" id="buyBtn" onclick="location.href='godiva_buy_iconic.html' ">구매하기</button>
-          </div>
-       </li>
 
-        <li>
-          <div class="img_04 img"></div>
-          <p class="narr_04 narr">Gold 34’</p>
-          <div class="buy_btn">
-            <button type="button" id="buyBtn" onclick="location.href='godiva_buy_iconic.html' ">구매하기</button>
-          </div> 
-       </li>
+          <div class="inform">
+          <input id="idName" name="idName" type="text" value="" placeholder="email" />
+          <label for="idName">  </label>
+          </div>
+
+
+          <div class="inform">
+          <input id="pwName" name="pwName" type="password" value="" placeholder="password" />
+          <label for="pwName"></label>
+          </div>
+
+          <input id="login" class="inform" type="submit" value="Login"/>
+
+        </fieldset>
+    </form>
+    
 
   
-
-      </ul>
-     </div>
-    </article>
-    <!--detail_goldBox-->
-
 
     <div class="footBox_wrap">
       <footer id="footBox">
