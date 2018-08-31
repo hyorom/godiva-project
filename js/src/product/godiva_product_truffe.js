@@ -12,7 +12,7 @@ var truffethumLi = truffethumUl.children('li');
 var truffebigImg = $('.truffle_bigimg');
 var truffedetail = $('.truffle_detail');
 
-
+ 
 /*배열*/
 var addr = "../img/product/truffe/";
 var truffeImg = [
