@@ -5,12 +5,12 @@
 
  
 #productBox{margin:auto; 
-            width:90%; 
+            width:90%;  
             height:auto;}
 
 #productBox > h2 {font-size:3rem;}
 
-
+ 
 /*tab*/
 .tab_box > ul {margin:auto;
                width:60%; 
@@ -23,8 +23,6 @@
                     height:100%; 
                     text-align:center;
                     line-height:40px;}
-
-
 
 /*content*/
 .content > h3 {font-size:2rem;}

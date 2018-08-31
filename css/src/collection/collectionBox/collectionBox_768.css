@@ -24,7 +24,7 @@
              margin:auto;
              width:8rem;
              height:3rem;
-             border-radius: 1rem;
+             border-radius:0.5rem;
              font-size:0.9rem;
              transition: all 700ms ease;
              color:#eee;

@@ -3,19 +3,31 @@
 @media screen and (max-width: 480px) { 
 
 
-.footBox_wrap { width:100%; 
-                height:6.5rem; 
-                background-color:#321a00; }
 
-#footBox {width:100%; height:inherit;}
-#footBox > p {width:auto;
-              height:auto;
-              color:#aaa;
-              text-align:center;
-              font-weight: lighter;
-              font-size:0.9rem;
-              padding-top:2rem;
-              font-size:0.9rem;}
+.footBox_wrap {width:100%; 
+               height:25rem; 
+               background-color:#321a00; }
+
+#footBox {margin:auto;
+          width:90%; 
+          height:inherit;
+          box-sizing:border-box;
+          padding-top:4rem;}
+
+.foot_img{width:8rem; 
+          height:5rem;
+          background-size:100%;
+          background-repeat:no-repeat;
+          background-position: center;
+          background-image:url("../../../../img/fooBox/foot_img.png");
+          margin-bottom: 2rem;}
+
+#footBox  p {width:auto;
+             height:auto;
+             color:#aaa;
+             font-weight:lighter;
+             font-size:0.75rem;
+             word-break:keep-all;}
 
 
 }

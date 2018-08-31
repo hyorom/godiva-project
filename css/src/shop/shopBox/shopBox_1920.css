@@ -1,0 +1,105 @@
+/*shopBox_1920.css*/
+
+@media screen and (min-width: 1367px) { 
+
+
+#shopBox{position:relative;
+         margin:auto; 
+         width:100%;  
+         height:105vw;}
+
+#shopBox > h2 {font-size:3rem;}
+
+
+/*tab*/
+.tab_box > ul {margin:auto;
+               width:60%; 
+               height:2.5rem;
+               box-shadow:0 0.1rem 0 rgba(0,0,0,0.3); }
+
+.tab_box > ul > li {float:left;
+                    box-sizing:border-box;  
+                    width:20%; 
+                    height:100%; 
+                    text-align:center;
+                    line-height:40px;}
+
+
+
+/*content*/
+
+.tab_content{width:100%; height:100%;}
+
+.content_wrap > h3 {font-size:2rem;}
+ 
+.content_wrap > h4{font-size:0.9rem;
+                   margin-bottom:5rem;}
+
+
+
+ 
+/*content*/
+.content_wrap{width:100%; 
+              height:100%;  
+              margin:auto;}
+
+.content_wrap>div {position:absolute;
+                   z-index:200;
+                   width:16%; 
+                   background-size:100%;
+                   background-repeat: no-repeat;}
+
+.bis_point_img_01{top:15%; left:0; height:23.5rem; 
+                  background-position:center;
+                  background-image: url("../../../../img/shop/biscuit/biscuit_bg_01.png");}
+
+.bis_point_img_02{bottom:0; right:0; height:23.5rem; 
+                  background-position:center bottom;
+                  background-image: url("../../../../img/shop/biscuit/biscuit_bg_02.png");}              
+
+.berry_point_img_01{bottom:5%; right:0; height:15rem; 
+                    background-position:center;
+                    background-image: url("../../../../img/shop/berry/berry_bg_01.png");}
+
+.berry_point_img_02{top:20%; left:0; height:20rem; 
+                    background-position:center;
+                    background-image: url("../../../../img/shop/berry/berry_bg_02.png");}
+
+.snack_point_img_01 {bottom:0; right:0; height:47rem; 
+                     background-position:center;
+                     background-image: url("../../../../img/shop/snack/snack_bg_01.png");}
+
+/*content_ img*/
+.content {margin:auto;
+          width:55%; 
+          height:100%; }
+
+
+.content > li {float:left;
+               width:27%;
+               height:15vw;
+               margin:0 8% 10% 0;}
+
+.content > li:nth-child(3n){margin-right:0;}
+
+
+.content > li  .img {width:100%; 
+                     height:100%; 
+                     transition: all 700ms ease;
+                     background-repeat:no-repeat;
+                     background-position: center;}
+
+.content > li  p {padding:4% 0;
+                  width:100%; 
+                  height:10%;
+                  font-size:1.2rem;
+                  font-style: italic;
+                  font-weight: bold;
+                  text-align: center;
+                  color:#6d3900;}
+
+
+
+
+
+} 
