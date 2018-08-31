@@ -29,7 +29,7 @@ var barImg = [
                   hover:'bar_04_hover', 
                   p:'Inclusions Gift, 4'},
 
-                 {thum:'bar_05', 
+                 {thum:'bar_05',  
                   hover:'bar_05_hover', 
                   p:'Bar Sellers Gift, 4'},
 
@@ -55,7 +55,7 @@ var barImg = [
 
 
 //===li 복제해서 처리하고 썸네일 이미지를 한번에 담기 
-//1)복제
+//1)복제 
 //2)반복되는 이미지 한번에 담기 --for문
 
 var i = 0;
@@ -91,7 +91,6 @@ Img(0);
 var ImgHover = function(i){
 var liHover = barLi.eq(i).css({backgroundImage:'url(' + addr + barImg[i].hover + '.png)'});
 };
-ImgHover(i);
 
 
 //초콜렛이름 만들기 

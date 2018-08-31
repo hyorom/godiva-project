@@ -33,7 +33,7 @@ var berryImg = [
 
                  {thum:'berry_07', 
                   p:'Milk, Half Dozen'}
-               ];
+               ]; 
 
 
 

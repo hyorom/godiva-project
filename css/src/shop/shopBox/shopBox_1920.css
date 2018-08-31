@@ -45,29 +45,39 @@
 
 .content_wrap>div {position:absolute;
                    z-index:200;
-                   width:16%; 
+                   
                    background-size:100%;
                    background-repeat: no-repeat;}
 
-.bis_point_img_01{top:15%; left:0; height:23.5rem; 
+.bis_point_img_01{top:15%; left:0;  width:16%; height:23.5rem; 
                   background-position:center;
                   background-image: url("../../../../img/shop/biscuit/biscuit_bg_01.png");}
 
-.bis_point_img_02{bottom:0; right:0; height:23.5rem; 
+.bis_point_img_02{bottom:0; right:0;  width:16%; height:23.5rem; 
                   background-position:center bottom;
                   background-image: url("../../../../img/shop/biscuit/biscuit_bg_02.png");}              
 
-.berry_point_img_01{bottom:5%; right:0; height:15rem; 
+.berry_point_img_01{top:20%; left:2%;width:11%; height:22rem; 
                     background-position:center;
                     background-image: url("../../../../img/shop/berry/berry_bg_01.png");}
 
-.berry_point_img_02{top:20%; left:0; height:20rem; 
+.berry_point_img_02{bottom:5%;right:0;  width:20%; height:20rem; 
                     background-position:center;
                     background-image: url("../../../../img/shop/berry/berry_bg_02.png");}
 
 .snack_point_img_01 {bottom:0; right:0; height:47rem; 
                      background-position:center;
                      background-image: url("../../../../img/shop/snack/snack_bg_01.png");}
+
+.bar_point_img_01{ bottom:0; right:0; height:30rem; 
+                  background-position:center;
+                  background-image: url("../../../../img/shop/bar/bar_bg_01.png");}
+
+.bar_point_img_02{top:10%;  left:0; height:30rem; 
+                  background-position:center;
+                  background-image: url("../../../../img/shop/bar/bar_bg_02.png");}
+
+
 
 /*content_ img*/
 .content {margin:auto;
@@ -79,7 +89,7 @@
                width:27%;
                height:15vw;
                margin:0 8% 10% 0;}
-
+ 
 .content > li:nth-child(3n){margin-right:0;}
 
 
