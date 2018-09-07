@@ -6,14 +6,9 @@
 @media screen and (min-width: 481px) and (max-width: 768px) { 
 
 
-
 #detail_goldBox {width:100%; 
                   height:220vw;
-                  min-height:80rem;
-                  background-image:url("../../../../img/detail/detail_bg_tab_02.png");
-                  background-repeat:no-repeat;
-                  background-position:right center;
-                  background-size:cover;}
+                  min-height:80rem;}
 
 /*text*/
 .gold_text {width:100%; 

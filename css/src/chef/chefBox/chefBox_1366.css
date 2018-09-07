@@ -4,8 +4,9 @@
 
 #chefBox{position:relative;
 	     width:100%; 
-         height:230vw;/*3200/1366*/
-         min-height:185rem; /*2900*/}
+         height:auto;
+         /*230vw;/*3200/1366*/
+         /*min-height:185rem; /*2900*/}
 
 
 /*title text*/
@@ -68,6 +69,6 @@
 .content_04_text{width:100%;text-align:right;}
 .content_04_lef {float:right;}
 
-.icon_05{width:18%; height:5%;}
+.icon_05{width:18%; height:7%;}
 
 }

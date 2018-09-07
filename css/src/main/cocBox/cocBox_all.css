@@ -1,0 +1,26 @@
+/*cocBox_all.css*/
+
+
+
+.coc_btn {margin:auto;
+          width:8.75rem;
+          height:3.125rem;
+          border:1px solid #000;
+          font-size:0.9rem;
+          text-align:center;
+          line-height:3.125rem;
+          transition: all 700ms ease;}
+
+.coc_btn:focus, 
+.coc_btn:hover {background-color:#603913;
+                transition: all 700ms ease;}
+
+.coc_btn > a {display: block;
+			  width:100%;
+			  height:100%;
+			  font-size:0.9rem;}
+
+
+
+.coc_btn:focus, 
+.coc_btn:hover > a {color:#eee;}

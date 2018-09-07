@@ -7,11 +7,7 @@
 
 #detail_truffBox {width:100%; 
                   height:290vw;
-                  min-height:110rem; /*1800*/
-                  background-image:url("../../../../img/detail/detail_bg_tab_02.png");
-                  background-repeat:no-repeat;
-                  background-position:right center;
-                  background-size:cover;}
+                  min-height:110rem; /*1800*/}
 
 /*text*/
 .truff_text {width:100%;  

@@ -28,24 +28,6 @@
 
 
 
-
-.cocBtn {display: block;
-        margin:auto;
-         width:8.75rem;
-         height:3.125rem;
-         border:1px solid #000;
-         font-size:0.9rem;
-         transition: all 700ms ease;}
-
-.cocBtn:focus, 
-.cocBtn:hover {width:8.75rem;
-               height:3.125rem;
-               border:1px solid #000;
-               font-size:0.9rem;
-               color:#eee;
-               background-color:#6d3900;
-               transition: all 700ms ease;}
-
 /*img*/
 .coc_img {width:50%; height:40%;
           margin:auto;

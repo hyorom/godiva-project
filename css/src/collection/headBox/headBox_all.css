@@ -52,7 +52,7 @@ h1{background-image:url("../../../../img/logo_brown.png");
 
 /*하단메뉴*/
 
-
+ 
 
 .gnb_drop {display:none; width:300%; height:auto; 
            padding-top:3rem;}
@@ -63,8 +63,8 @@ h1{background-image:url("../../../../img/logo_brown.png");
 
 .gnb_drop > ul > li {width:100%; height:auto;}
 .gnb_drop > ul > li > a {width:auto; height:auto;
-                         display: block;
-                         font-size: 1.2rem;
+                         display:block;
+                         font-size:1.2rem;
                          font-weight: bold;
                          color:#cc8844;
                          margin-bottom: 2rem;}

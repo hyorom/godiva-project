@@ -6,8 +6,10 @@
 
 
 #chefBox{width:100%;
-         height:700vw;/*3100/480*/
-         min-height:175rem;/*2800*/
+         height:auto;
+         padding-bottom:3rem;
+         /*700vw;/*3100/480*/
+         /*min-height:175rem;/*2800*/
          position:relative;}
  
 
@@ -22,8 +24,8 @@
 /*content text*/
 .chef_content{margin:auto;
               width:90%; 
-              height:570vw; 
-              min-height:143rem;/*2300*/}
+              height:600vw;
+              min-height:150rem;}
 
 .content_text{width:100%; 
 	          height:auto; 
@@ -52,7 +54,7 @@
      margin-bottom:7%;}
 
 
-.icon_05{width:30%; height:4%;}
+.icon_05{width:30%; height:6%;}
 
 
  }

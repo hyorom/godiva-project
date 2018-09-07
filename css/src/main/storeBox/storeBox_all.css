@@ -23,19 +23,26 @@
 
 /*btn*/
 
-.storeBtn {display: block;
-           margin:auto;
-           width:8.75rem;
-           height:3.125rem;
-           background-color:rgb(255,255,255,0.5);
-           font-size: 0.9rem;
-           transition: all 500ms linear;
-           margin-bottom:5rem;
-           border:1px solid #000;}
+.store_btn {margin:auto;
+            width:8.75rem;
+            height:3.125rem;
+            background-color:#fff;
+            transition: all 500ms linear;
+            margin-bottom:5rem;
+            text-align:center;
+            line-height:3.125rem;
+            border:1px solid #000;}
 
-.storeBtn:focus,
-.storeBtn:hover {background-color:#603913;
+.store_btn:focus,
+.store_btn:hover {background-color:#603913;
                  font-size: 0.9rem;
-                 color:#eee;
                  transition: all 500ms linear;}
 
+
+.store_btn > a { display: block;
+	             width:100%;
+	             height:100%;
+                 font-size: 0.9rem; }
+
+.store_btn:focus,
+.store_btn:hover > a { color:#eee; }

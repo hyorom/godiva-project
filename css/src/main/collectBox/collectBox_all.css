@@ -2,7 +2,7 @@
 
 
 #colletBox{width:100%;
-           height:50%;
+           height:25rem;
            box-sizing: border-box;
            padding-top:8%;
            background-repeat: no-repeat;
@@ -24,21 +24,26 @@
                  margin-bottom: 2rem;}
 
 
-.colletBtn {display: block;
-            width:8.75rem;
-            height:3.125rem;
-            border:1px solid #eee;
-            font-size:0.9rem;
-            transition: all 700ms ease;
-            margin:auto;
-            color:#eee;
-            background-color:rgba(255,255,255,0.2);}
+.collet_btn {width:8.75rem;
+             height:3.125rem;
+             border:1px solid #eee;
+             transition: all 700ms ease;
+             margin:auto;
+             text-align:center;
+             line-height:3.125rem;
+             background-color:rgba(255,255,255,0.2);}
+ 
+.collet_btn:focus, 
+.collet_btn:hover {font-size:0.9rem;
+                   color:#eee;
+                   background-color:#603913;
+                   transition: all 700ms ease;}
 
-.colletBtn:focus, 
-.colletBtn:hover {width:8.75rem;
-                  height:3.125rem;
-                  border:0;
-                  font-size:0.9rem;
-                  color:#eee;
-                  background-color:#603913;
-                  transition: all 700ms ease;}
+.collet_btn > a {display:block;
+	             width:100%;
+			     height:100%;
+			     font-size:0.9rem;
+			     color:#eee;}    
+
+.collet_btn:focus, 
+.collet_btn:hover a {color:#eee;}

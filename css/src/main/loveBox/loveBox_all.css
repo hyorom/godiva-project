@@ -12,20 +12,25 @@
 
 
 
-/*btn*/
-.loveBtn {display: block;
-           margin:auto;
+/*btn*/ 
+.love_btn {margin:auto;
            width:8.75rem;
-           height:3.125rem;
+           height:3.125rem; 
            background-color:rgb(255,255,255,0.3);
-           font-size: 0.9rem;
            transition: all 500ms linear;
            margin-bottom:2rem;
+           text-align:center;
+           line-height:3.125rem;
            border:1px solid #000;}
 
-.loveBtn:focus,
-.loveBtn:hover {background-color:#603913;
-                 font-size: 0.9rem;
-                 color:#eee;
+.love_btn:focus,
+.love_btn:hover {background-color:#603913;
                  transition: all 500ms linear;}
 
+.love_btn > a {display:block;
+			   width:100%;
+			   height:100%;
+		       font-size:0.9rem;}
+
+.love_btn:focus,
+.love_btn:hover > a {color:#eee;}

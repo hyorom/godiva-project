@@ -3,16 +3,17 @@
 /*btn*/
 
 .buy_btn {width:100%; 
-         height:11%;
-         font-size:1.5rem;
-         font-style: italic;
-         font-weight:; bold; 
-         text-align:center;
-         color:#eee; 
-         opacity:0;}
+          height:11%;
+          text-align:center;
+          opacity:0;}
 
-#buyBtn{color:#eee;
-        transition: all 700ms ease;}
+.buy_btn > a {display:block;
+			  width:100%;
+			  height:100%;
+			  padding-top:1.2%;
+	          color:#eee; 
+	          font-size:0.9rem;
+              transition: all 700ms ease;}
 
 
 

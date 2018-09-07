@@ -74,6 +74,7 @@
 
 
 /*---cocBox---*/
+@import url("./main/cocBox/cocBox_all.css");
 @import url("./main/cocBox/cocBox_1920.css");
 @import url("./main/cocBox/cocBox_1366.css");
 @import url("./main/cocBox/cocBox_768.css");
